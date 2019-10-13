@@ -2,6 +2,7 @@
 title: About ParticleWave
 subtitle: Based on a demo page with a sidebar
 layout: page
+hide_hero: true
 show_sidebar: true
 permalink: /about/
 ---
