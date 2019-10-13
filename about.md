@@ -1,8 +1,9 @@
 ---
-title: Page without sidebar
-subtitle: Demo page without the sidebar
+title: About ParticleWave
+subtitle: Based on a demo page with a sidebar
 layout: page
-show_sidebar: false
+show_sidebar: true
+permalink: /about/
 ---
 # About ParticleWave
 
