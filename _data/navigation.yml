@@ -1,7 +1,6 @@
-- name: Home
-  link: /
 - name: About
   link: /about/
+- name: Pages
   dropdown: 
-    - name: Bunch of Pages
-      link: /about/
+    - name: Jenniffer
+      link: /people/Jenniffer/
