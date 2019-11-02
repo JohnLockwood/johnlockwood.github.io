@@ -1,6 +1,8 @@
 - name: About
   link: /about/
-- name: People
+- name: Team
   dropdown: 
-    - name: Jenniffer
-      link: /people/Jenniffer
+    - name: Jenniffer Lockwood
+      link: /people/JennifferLockwood
+    - name: John Lockwood
+      link: /people/JohnLockwood
