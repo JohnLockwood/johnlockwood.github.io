@@ -4,6 +4,7 @@
   dropdown: 
     - name: Jenniffer
       link: /people/Jenniffer
-    - dropdown:
+    - name: Second Level
+      dropdown:
         -name:  Second Level Fred
         link: /about/
