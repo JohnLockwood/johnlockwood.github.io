@@ -1,10 +1,6 @@
 - name: About
   link: /about/
-- name: Pages
+- name: People
   dropdown: 
     - name: Jenniffer
       link: /people/Jenniffer
-    - name: Second Level
-      dropdown:
-        -name:  Second Level Fred
-        link: /about/

@@ -2,7 +2,6 @@
 
 ParticleWave is a Charlotte Based consulting firm who specializes in data analysis, data engineering, and scientific and numerical computing.
 
-
 <!--
 You can use the [editor on GitHub](https://github.com/JohnLockwood/johnlockwood.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
