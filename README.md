@@ -1,3 +1,12 @@
+---
+title: ParticleWave
+subtitle: Charlotte Data Analytics and Consulting
+layout: page
+hide_hero: true
+show_sidebar: false
+permalink: /
+---
+
 ## Data Analytics and Scientific Computing
 
 ParticleWave is a Charlotte Based consulting firm who specializes in data analysis, data engineering, and scientific and numerical computing.
