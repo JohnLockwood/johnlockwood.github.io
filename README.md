@@ -1,7 +1,9 @@
-## Future home of ParticleWave.com?
+## Data Analytics and Scientific Computing
 
-### Could be!
+ParticleWave is a Charlotte Based consulting firm who specializes in data analysis, data engineering, and scientific and numerical computing.
 
+
+<!--
 You can use the [editor on GitHub](https://github.com/JohnLockwood/johnlockwood.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -37,3 +39,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+-->
