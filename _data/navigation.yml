@@ -1,8 +1,10 @@
-- name: About
-  link: /about/
+- name: Community
+  link: /community/
 - name: Team
   dropdown: 
     - name: Jenniffer Lockwood
       link: /people/JennifferLockwood
     - name: John Lockwood
       link: /people/JohnLockwood
+- name: Contact Us
+  link: /contact/

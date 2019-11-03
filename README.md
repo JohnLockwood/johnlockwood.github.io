@@ -1,14 +1,14 @@
 ---
 title: ParticleWave
-subtitle: Charlotte Data Analytics and Consulting
+subtitle: Data Analytics and Scientific Engineering
 layout: page
-hide_hero: true
+hide_hero: false
 show_sidebar: false
 permalink: /
 hide_footer: true
 ---
 
-## Data Analytics and Scientific Computing
+# Jupyter and the Python Data Stack
 
 ParticleWave is a Charlotte Based consulting firm which specializes in data analysis, data engineering, and scientific and numerical computing.
 
