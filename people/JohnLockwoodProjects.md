@@ -9,4 +9,16 @@ hide_footer: true
 menubar:  team_menu
 ---
 # John Lockwood Projects
-His current project is making this dumb website less dumb.
+Here's what John is working on lately.
+
+{% for post in site.posts %}
+{% if post.categories contains "John's Projects" %}
+<p>
+    <a href="{{ post.url }}">{{ post.title }}</a><br />  {{post.description}}
+</p>
+{% endif %}
+{% endfor %}
+
+
+
+

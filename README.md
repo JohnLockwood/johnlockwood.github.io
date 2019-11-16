@@ -1,6 +1,6 @@
 ---
 title: ParticleWave
-subtitle: Data Analytics and Scientific Engineering
+subtitle: Data Analysis and Data Engineering in the Cloud
 layout: page
 hide_hero: false
 show_sidebar: false
@@ -8,11 +8,9 @@ permalink: /
 hide_footer: true
 ---
 
-# Jupyter and the Python Data Stack
+ParticleWave is a Charlotte Based consulting firm which specializes in data analysis, data engineering, and cloud DevOps.
 
-ParticleWave is a Charlotte Based consulting firm which specializes in data analysis, data engineering, and scientific and numerical computing.
-
-We provide staff augmentation for data analysts to companies in the greater Charlotte area.
+We provide direct staff augmentation and consulting services to our clients.
 
 <!--
 You can use the [editor on GitHub](https://github.com/JohnLockwood/johnlockwood.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
