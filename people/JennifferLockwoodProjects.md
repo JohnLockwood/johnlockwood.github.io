@@ -10,6 +10,16 @@ menubar:  team_menu
 ---
 # Jenniffer Lockwood Projects
 
+{% for post in site.posts %}
+{% if post.categories contains "Jenniffer's Projects" %}
+<p>
+    <a href="{{ post.url }}">{{ post.title }}</a><br />  {{post.description}}
+</p>
+{% endif %}
+{% endfor %}
+
+
+
 ## Excel / VBA
 
 * [Excel Challenge](https://github.com/JennifferLockwood/excel-challenge)
