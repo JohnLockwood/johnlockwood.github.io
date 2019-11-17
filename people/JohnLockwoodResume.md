@@ -32,7 +32,7 @@ successful projects.
       adoption in three of the environments where I have worked. I have
       worked in Junit, Nunit, TestNG, Jest, etc.
 
--   Amazon AWS Certified Developer – Associate.
+-   [Amazon AWS Certified Developer – Associate](https://s3.us-east-2.amazonaws.com/codesolid.com/AWS_Certified_Developer_Associate.pdf).
 
 -   Extensive side projects and learning exercises in “DevOps” sorts of
       things - containers, (esp. Docker & Kubernetes), Ansible, Puppet,
