@@ -13,13 +13,7 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-  {%if page.comments or true %}
-<script>
-var idcomments_acct = '9b07823cbd7882ee6d6fbf7670c9d269';
-var idcomments_post_id;
-var idcomments_post_url;
-</script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+  {%if page.comments and false %}
+  <div>Comments would go here if I could find a decent JS comment plugin.  Maybe I should write one.</div>
   {% endif %}
 </article>
