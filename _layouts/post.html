@@ -13,7 +13,13 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-  {%if page.comments and false %}
-  <div>Comments would go here if I could find a decent JS comment plugin.  Maybe I should write one.</div>
+  {%if true %}
+  <script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
   {% endif %}
 </article>
