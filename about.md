@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Well, where to begin.  My name is John Lockwood, if you haven't pieced that together from the domain name and other obvious clues. I grew up in Woonsocket, Rhode Island, and I come to Charlotte by way of Indiana, Maryland, Connecticut, and California.  If that's not confusing enough, my wife is from Colombia.  We'll be celebrating our ten year anniversary this year.
+Well, where to begin.  The identity I learned is that of John Lockwood, from my lovely parents, the proximate causes and conditions of being born human.  I grew up in Woonsocket, Rhode Island, and I come to Charlotte, North Carolina by way of Indiana, Maryland, Connecticut, and California.  My lovely wife is from Colombia.  We'll be celebrating our twelve year anniversary this year.  I have a daughter from a previous marriage who lives with her mom.
 
-Don't feel bad if you didn't get us anything. I realize this is just a blog.  We're not that close.  You and I, I mean. My wife and I get along famously.
+This site is my attempt to bring order to the chaos of too many GitHub repositories about too many things, by glomming it all into a single site about all my interests.  Of course such a scheme is explicitly atopical and lends itself to being systematically ignored by those looking for a site about programming (an interest of mine), or cognitive science, or human language learning, or Buddhism, or recovery from substance misuse
 
-I don't have a big list of accomplishments or fun facts I feel like sharing now, but yes, I am quite aware that this web site needs to have my old content dredged up and re-purposed along with a lot of groovy new vibes.
-
-Groovy new vibes.  I don't really talk like that, usually, but every once in awhile I like to betray my boomer roots by saying something I don't think boomers ever really said.
+All of these and whatever the heck else doesn't embarrass me enough to scare me out of publishing it will live here.  I'll attempt to organize it to make it at least amusing to me, and possibly of some passing interest to others.
 
