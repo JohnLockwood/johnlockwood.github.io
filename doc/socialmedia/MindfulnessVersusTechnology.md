@@ -1,15 +1,5 @@
----
-title: Mindfulness Versus Technology
-date: 2017-01-10 06:20:52
-categories:
- - Mind Hacks
-tags:
- - Mindfulness
- - Technology
- - Buddhism
----
 
-# Mindfulness Versus Technology
+# Mindfulness vs. Technology
 
 (First published, January 10, 2017)
 
