@@ -1,0 +1,16 @@
+Overview & Resources
+====================
+
+These are my C++ notes, to update my C++ from when I first learned it.
+
+.. warning::
+	The precise organization of this site is a work in progress.
+
+Resources to Use
+----------------
+
+* `C++ Reference <https://cppreference.com>`_ A great general reference; light on coding samples.
+* `CPlusPlus <cplusplus.com>`_ -- A bit older but with tutorials and reference.
+* `C++ FAQ <https://isocpp.org/faq>`_ - ISO CPP's super-FAQ. 
+
+
