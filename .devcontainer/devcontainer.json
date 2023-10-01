@@ -4,10 +4,10 @@
 // on C++ Dev Containers at: https://codesolid.com/cpp-dev-containers/
 {
 	"name": "My Custom C++ Dev Container",
-	//"image": "codesolid/johnlockwood_com:latest",
-	"build": {
-	 	"dockerfile": "Dockerfile"
-	 },
+	"image": "codesolid/johnlockwood_com:latest",
+	// "build": {
+	//  	"dockerfile": "Dockerfile"
+	//  },
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
