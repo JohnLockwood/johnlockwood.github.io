@@ -1,4 +1,5 @@
-FROM python:3.11-bullseye
+# FROM python:3.11-bullseye
+FROM mcr.microsoft.com/devcontainers/python:0-3.11-bullseye 
 
 COPY packages.txt /tmp/
 COPY requirements.txt /tmp
