@@ -31,5 +31,5 @@ jobs:
       - name: Run build script for Sphinx pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-        run: "${{ github.workspace }}/scripts/buildsite.sh"
+        run: "scripts/buildsite.sh"
         shell: bash
