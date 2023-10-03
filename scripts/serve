@@ -1,0 +1,3 @@
+#!/bin/bash
+DOC_DIR=/workspaces/johnlockwood.github.io/src
+sphinx-autobuild "$DOC_DIR" "$DOC_DIR/_build/html"

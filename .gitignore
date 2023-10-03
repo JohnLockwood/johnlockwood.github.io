@@ -5,3 +5,5 @@ _site
 .jekyll-metadata
 vendor
 .ipynb_checkpoints
+**/_build
+delme.yml
