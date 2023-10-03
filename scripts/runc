@@ -1,6 +1,0 @@
-#!/bin/bash
-
-SOURCE="$1"
-PROGRAM="${SOURCE%.*}"
-
-g++ -std=c++20  -g $SOURCE -o $PROGRAM && ./$PROGRAM

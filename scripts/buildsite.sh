@@ -2,4 +2,4 @@
 set -x
 
 true || rm -rf public
-sphinx-build  doc/ public/
+sphinx-build  src/ docs
