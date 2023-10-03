@@ -23,5 +23,5 @@ jobs:
       - name: Run build script for Sphinx pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-        run: "${GITHUB_WORKSPACE}/scripts/buildsite.sh"
+        run: sphinx-build "${GITHUB_WORKSPACE}/src" "${GITHUB_WORKSPACE}/docs"
         shell: bash
