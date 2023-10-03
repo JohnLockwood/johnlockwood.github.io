@@ -1,5 +1,5 @@
 #!/bin/bash
 set -x
 
-true || rm -rf public
+true || rm -rf docs
 sphinx-build  src/ docs
