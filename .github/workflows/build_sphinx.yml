@@ -16,7 +16,7 @@ jobs:
     container: codesolid/johnlockwood_com
 
     steps:
-      -uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: 'sphinx'
 
