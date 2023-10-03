@@ -26,4 +26,3 @@ jobs:
         run: sphinx-build "${GITHUB_WORKSPACE}/src" "${GITHUB_WORKSPACE}/docs"
         shell: bash
         
-      - uses: actions/upload-pages-artifact@v2
