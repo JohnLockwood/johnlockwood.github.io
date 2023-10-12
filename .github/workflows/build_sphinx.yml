@@ -25,4 +25,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
         run: sphinx-build "${GITHUB_WORKSPACE}/src" "${GITHUB_WORKSPACE}/docs"
         shell: bash
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: "${GITHUB_WORKSPACE}/docs"
+          
         
