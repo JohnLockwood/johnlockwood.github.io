@@ -12,6 +12,7 @@ on:
 jobs:
 
   build_sphinx_job:
+    if: ${{ false }} # disabled
     runs-on: ubuntu-latest
     container: codesolid/johnlockwood_com
 
