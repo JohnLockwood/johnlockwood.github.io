@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes for Embedded Systems Essentials with ARM. &mdash; JohnLockwood.com 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=2709fde1"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="reStructuredText Practice" href="rst_practice.html" />
+    <link rel="prev" title="Programming goodies" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            JohnLockwood.com
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../socialmedia/index.html">Social Media</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Programming goodies</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Notes for Embedded Systems Essentials with ARM.</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#common-to-embedded-systems">Common to embedded systems:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#independent-progress">Independent Progress:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rst_practice.html">reStructuredText Practice</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../recovery/index.html">Recovery</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">JohnLockwood.com</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Programming goodies</a></li>
+      <li class="breadcrumb-item active">Notes for Embedded Systems Essentials with ARM.</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/programming/embedded_systems_essentials_with_arm.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="notes-for-embedded-systems-essentials-with-arm">
+<span id="embedded-systems-essentials-with-arm-notes"></span><h1>Notes for <a class="reference external" href="https://www.edx.org/learn/embedded-systems/arm-education-embedded-systems-essentials-with-arm-getting-started?index=product&amp;objectID=course-65433bff-efc4-4e62-8a91-af05dc37802a&amp;webview=false&amp;campaign=Embedded+Systems+Essentials+with+Arm%3A+Getting+Started&amp;source=edX&amp;product_category=course&amp;placement_url=https%3A%2F%2Fwww.edx.org%2Flearn%2Fembedded-systems">Embedded Systems Essentials with ARM</a>.<a class="headerlink" href="#notes-for-embedded-systems-essentials-with-arm" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://arm.com">ARM</a> designed <a class="reference external" href="https://os.mbed.com">Mbed</a> an open-source C++ framework for
+doing IOT development on Cortex-M microcontrollers.  Cortex-M processor are (see <a class="reference external" href="https://en.wikipedia.org/wiki/ARM_Cortex-M">wikipedia</a>) 32-bit processor cores licensed by ARM, but manufactured by many manufacturers.</p>
+<section id="common-to-embedded-systems">
+<h2>Common to embedded systems:<a class="headerlink" href="#common-to-embedded-systems" title="Link to this heading"></a></h2>
+<p>This is based on <a class="reference external" href="https://www.youtube.com/watch?v=IXFcSDif2Mw">this video</a>.</p>
+<ul class="simple">
+<li><p>Usually have computation processing.</p></li>
+<li><p>Do specific tasks that repeat either on timer or in response to triggers.</p></li>
+<li><dl class="simple">
+<dt>Benefits:</dt><dd><ul>
+<li><p>Low power</p></li>
+<li><p>High Performance</p></li>
+<li><p>Low Cost</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Often subject to real-time constraints.</p></li>
+<li><p>Fault handling code is usually larger than other code, because fault handling important.</p></li>
+<li><dl class="simple">
+<dt>Parts:</dt><dd><ul>
+<li><p>Microprocessor / aka CPU</p></li>
+<li><p>Arithmetic Logic Unit (ALU)</p></li>
+<li><p>Peforms fetching of instructions / decoding of them / execution</p></li>
+<li><dl class="simple">
+<dt>Has a memory interface:</dt><dd><ul>
+<li><p>From which instructions are fetched</p></li>
+<li><p>Which can also be interacted with.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>MCU = Microprocessor plus additional components e.g. Program memory, data memory, digital I/O, Analog I/O, Timers, Other peripherals</p></li>
+<li><p>CPU usually single core.</p></li>
+<li><dl class="simple">
+<dt>Enormous range of applications:</dt><dd><ul>
+<li><p>Closed loop control systems</p></li>
+<li><p>Maintain a set point, e.g. temperature</p></li>
+<li><p>Specialized functions within larger system.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<dl class="simple">
+<dt>Example is bike computer:</dt><dd><ul class="simple">
+<li><p>Sense wheel rotation</p></li>
+<li><p>Cacluates speed, distance, time.</p></li>
+<li><p>Constraints are size / cost / battery life.</p></li>
+<li><p>Low cost CPU</p></li>
+</ul>
+</dd>
+<dt>Example Engine Control Unit:</dt><dd><ul class="simple">
+<li><p>real-time</p></li>
+<li><p>reliable in harsh environments</p></li>
+<li><p>Networking to rest of constraints</p></li>
+<li><p>High demand - powerful MCU</p></li>
+</ul>
+</dd>
+</dl>
+<p>A recommended book is Fast and Effective Embedded System Design; Applying the ARM Mbed</p>
+<p>… Skip several videos of notes, all good.  Now working on the good stuff, the lab, the video for which is <a class="reference external" href="https://www.youtube.com/watch?v=BD0C3Awlhf0">here</a>.</p>
+<p>Here are the Docker  command for the mbed simulator:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>pull<span class="w"> </span>armedu/mbed_sim
+docker<span class="w"> </span>run<span class="w"> </span>-p<span class="w"> </span><span class="m">7829</span>:7829<span class="w"> </span>armedu/mbed_sim
+</pre></div>
+</div>
+<p>An example <a class="reference external" href="https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F401RE?qs=fK8dlpkaUMvGeToFJ6rzdA%3D%3D&amp;utm_source=digipart&amp;utm_medium=aggregator&amp;utm_campaign=NUCLEO-F401RE&amp;utm_term=NUCLEO-F401RE&amp;utm_content=STMicroelectronics">supported board</a> mentioned in the course.</p>
+<p>Here’s a bit of fun I had doing the phi phenomenon on a row of LEDs</p>
+<div class="highlight-C++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;mbed.h&quot;</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">DigitalOut</span><span class="w"> </span><span class="n">leds</span><span class="w"> </span><span class="p">[]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">DigitalOut</span><span class="p">(</span><span class="n">LED1</span><span class="p">),</span>
+<span class="w">                </span><span class="n">DigitalOut</span><span class="p">(</span><span class="n">LED2</span><span class="p">),</span>
+<span class="w">                </span><span class="n">DigitalOut</span><span class="p">(</span><span class="n">LED3</span><span class="p">),</span>
+<span class="w">                </span><span class="n">DigitalOut</span><span class="p">(</span><span class="n">LED4</span><span class="p">),</span>
+<span class="w">        </span><span class="p">};</span>
+<span class="w">        </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">NUM_LEDS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">leds</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">leds</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">off_ms</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="n">on_ms</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">40</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nb">true</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">                </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">leds</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="n">leds</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">                        </span><span class="c1">// Run through array and loop to beginning</span>
+<span class="w">                        </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">NUM_LEDS</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="w">  </span><span class="o">?</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">                        </span><span class="n">wait_ms</span><span class="p">(</span><span class="n">off_ms</span><span class="p">);</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">                </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="n">leds</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="w">                        </span><span class="n">wait_ms</span><span class="p">(</span><span class="n">on_ms</span><span class="p">);</span>
+<span class="w">                </span><span class="p">}</span>
+
+<span class="w">        </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="independent-progress">
+<h2>Independent Progress:<a class="headerlink" href="#independent-progress" title="Link to this heading"></a></h2>
+<p>Here are some other things I’ve done:</p>
+<ul class="simple">
+<li><p>Tried to install mbed studio using ~/Downloads/MbedStudio-1.4.5.pkg – but it fails. I asked about it in forums.mbed.com, <a class="reference external" href="https://forums.mbed.com/t/mbed-studio-mac-installation-fails-apple-silicon/21333">here</a>.</p></li>
+<li><p>Found <a class="reference external" href="https://studio.keil.arm.com/">keil studio</a>, an online IDE that looks like a VS Code thinger, which also led me to find the <cite>VS Code Extension &lt;https://marketplace.visualstudio.com/items?itemName=Arm.keil-studio-pack&gt;</cite>, which I haven’t yet installed.  Oh hell, let’s try it.  OK, it’s installed, now what with that thingie.  Well, even the online keil studio says it can’t find any devices to add, so lest I spend too much on shipping for the one board I need, I…</p></li>
+<li><p>Ordered 2 units of the mbed-supported <a class="reference external" href="https://www.mouser.com/ProductDetail/STMicroelectronics/NUCLEO-F401RE?qs=fK8dlpkaUMvGeToFJ6rzdA%3D%3D&amp;utm_source=digipart&amp;utm_medium=aggregator&amp;utm_campaign=NUCLEO-F401RE&amp;utm_term=NUCLEO-F401RE&amp;utm_content=STMicroelectronics">STMicroelectronics NUCLEO-F401RE</a>.</p></li>
+<li><p>Installed stlink on a guess using brew install stlink.  This added a bunch of utilities to  /opt/homebrew/Cellar/stlink/1.7.0/bin/ (not yet on path) – most of which to-date complain that they can’t find any ST-LINK devices.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Programming goodies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rst_practice.html" class="btn btn-neutral float-right" title="reStructuredText Practice" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, John Lockwood.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
