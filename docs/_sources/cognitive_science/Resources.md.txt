@@ -1,5 +1,8 @@
 # Cognitive Science Resources
 
+This list of resources is my working list of things I might like to consult.  I have not yet
+worked through all of these, but as I do, I may link to a review or summary of my own.
+
 ## Books
 
 ## Reading / Read
