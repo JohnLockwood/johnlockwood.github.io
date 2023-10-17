@@ -8,14 +8,16 @@
 
 [How Emotions are Made: The Secret Life of the Brain](https://lisafeldmanbarrett.com/books/how-emotions-are-made/) by Lisa Feldmean Barrett.  I am reading this now.  The main idea is the theory of the "construction of emotions", an active process in which our concepts (driven by language) play a large role.  I should write a longer review.  There's also a [YouTube Video](https://www.youtube.com/watch?v=KliAI9umFyY) by Dr. Barrett.
 
+[Neuronal Dynamics: From single neurons to networks and models of cognition and beyond](https://neuronaldynamics.epfl.ch/book.html) Wulfram Gerstner et. al.  A challenging theoretical work on the mathematics of neuronal function, with Python exercises.
+
 ## Read Next?
 
 [The Self-Assembling Brain: How Neural Networks Grow Smarter](https://www.amazon.com/Self-Assembling-Brain-Neural-Networks-Smarter-ebook/dp/B08MVG2619/ref=sr_1_1?crid=PRQ5H5A3RMA8&keywords=Artificial+vs+biological+neural+networks&qid=1697460077&sprefix=artificial+vs+biological+neural+networks%2Caps%2C70&sr=8-1) by Peter Robin Hiesinger
 
 
 [Neuroscience: Exploring the Brain, Enhanced Edition 4th Edition](https://www.amazon.com/Neuroscience-Exploring-Enhanced-Mark-Bear-ebook/dp/B0873CMB7M/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1697458949&sr=8-1)
-I believe this is used by a course given by Harvard/MIT -- but can't find the course again.
-
+Mark Bear uses this in his own course on [Introduction to Neuroscience](https://ocw.mit.edu/courses/9-01-introduction-to-neuroscience-fall-2007/) available on 
+MIT OpenCourseWare.
 
 [Cognitive Neuroscience:  The Biology of the Mind](https://www.amazon.com/Cognitive-Neuroscience-Biology-Mind-Fifth/dp/0393603172/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1697298360&sr=8-1). This is a respected standard textbook on neuroscience -- rather pricey though.
 
@@ -25,7 +27,7 @@ I believe this is used by a course given by Harvard/MIT -- but can't find the co
 
 [The Language Instinct:  How the Mind Creates Language](https://www.amazon.com/Language-Instinct-Creates-Perennial-Classics/dp/0061336467/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1697461992&sr=8-1) Steven Pinker
 
-[The Evolution of Language](https://www.amazon.com/Evolution-Language-Approaches/dp/052167736X/ref=sr_1_1?crid=F6K63LMSO57G&keywords=evolution+and+linguistics&qid=1697376808&sprefix=evolution+and+linguistics%2Caps%2C68&sr=8-1&ufe=app_do%3Aamzn1.fos.d977788f-1483-4f76-90a3-786e4cdc8f10)
+[The Evolution of Language](https://www.amazon.com/Evolution-Language-Approaches/dp/052167736X/ref=sr_1_1?crid=F6K63LMSO57G&keywords=evolution+and+linguistics&qid=1697376808&sprefix=evolution+and+linguistics%2Caps%2C68&sr=8-1&ufe=app_do%3Aamzn1.fos.d977788f-1483-4f76-90a3-786e4cdc8f10) W. Techumseh Fitch - a good overview of the field.
 
 ## Other
 
