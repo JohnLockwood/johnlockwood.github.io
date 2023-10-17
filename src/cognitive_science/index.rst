@@ -9,7 +9,7 @@ I am beginning to study Cognitive Science.  What I hope to present here are some
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 5
    :caption: Contents:
    
    Resources
