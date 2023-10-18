@@ -51,5 +51,9 @@ One critical review of Gerald Edelman's Second Nature: Brain Science and Human K
 
 Edx.org has many [courses on Neuroscience](https://www.edx.org/learn/neuroscience#browse-courses).
 
-
 MIT OpenCourseWare has a course, [The Human Brain](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/)
+
+## Video Talks
+
+[Your brain hallucinates your conscious reality ](https://www.youtube.com/watch?v=lyu7v7nWzfo) - Ted Talk by Anil Seth, quite good,
+with different forms of the self.

@@ -1,3 +1,4 @@
 #!/bin/bash
-DOC_DIR=/workspaces/johnlockwood.github.io/src
-sphinx-autobuild "$DOC_DIR" "$DOC_DIR/_build/html"
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+WORKSPACE=$(realpath "$SCRIPT_DIR"/..)
+sphinx-autobuild "$WORKSPACE/src" "$WORKSPACE/docs"
