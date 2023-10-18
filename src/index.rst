@@ -9,7 +9,6 @@ JohnLockwood.com
 
    cognitive_science/index
    socialmedia/index
-   programming/index
    recovery/index
    
 This is the personal web site of the human known as John Lockwood, an identity bequeathed along with bunch of good DNA and other benefits of human life from my lovely parents.  I grew up in Woonsocket, Rhode Island, and I come to Charlotte, North Carolina by way of Indiana, Maryland, Connecticut, and California.  My lovely wife is from Colombia.  We'll be celebrating our twelve year anniversary this year.  I have a daughter from a previous marriage who lives with her mom.
