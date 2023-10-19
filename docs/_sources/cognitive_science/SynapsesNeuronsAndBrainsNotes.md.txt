@@ -1,6 +1,6 @@
 # Notes on Synapses, Neurons, and Brains
 
-On October 18, 2023, I started on the course `Synapses, Neurons, and Brains <https://www.coursera.org/learn/synapses>`_.  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.
+On October 18, 2023, I started on the course [Synapses, Neurons, and Brains](https://www.coursera.org/learn/synapses).  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.
 
 Some dramatic billion-dollar projects include:
 	* Allen Institute Seattle - Mouse/Human Brain Atlas
