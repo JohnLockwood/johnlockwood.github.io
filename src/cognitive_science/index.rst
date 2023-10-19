@@ -8,11 +8,14 @@ I am beginning to study Cognitive Science.  What I hope to present here are some
 
 
 
+
+
 .. toctree::
    :maxdepth: 5
    :caption: Contents:
    :hidden:
    
    Resources
+   SynapsesNeuronsAndBrainsNotes
    OnReadingConsciousnessExplained   
    
