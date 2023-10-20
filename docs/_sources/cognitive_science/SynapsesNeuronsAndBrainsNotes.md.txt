@@ -2,42 +2,44 @@
 
 On October 18, 2023, I started on the course [Synapses, Neurons, and Brains](https://www.coursera.org/learn/synapses).  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.
 
+## Week One
+
 Some dramatic billion-dollar projects include:
 	* Allen Institute Seattle - Mouse/Human Brain Atlas
 	* [Janelia farm](https://www.janelia.org/) - DC, USA 
 	* EU Human brain project
 	* President Obama's "Brain Activity Map" initiative
 
-## Five exciting things:
-* A [lesson](https://www.coursera.org/learn/synapses/lecture/5qrDn/the-connectomics) on [Connectomics](https://en.wikipedia.org/wiki/Connectomics)
+### Five exciting things:
+* Connectomix (see also [Wikipedia article](https://en.wikipedia.org/wiki/Connectomics))
 * Brainbow
 * Brain-machine/Computer Interface (BMI)
-* Optogenics
+* Optogenetics
 * Computer Simulation of the Brain (e.g. Blue Brain Project)
 
 Camillo Golgi and Santiago Ramon Y Cajal are "The Two Giants", the beginning of modern neuroscience.   Golgi stains actually only stain about < 1% of cells, so doesn't make tissue dark, you can then see those stained neurons (a later term).  1906 Nobel Prize.
 
-## Connectomics
+### Connectomics
 
-Connectomicsis modern anatomy wiring diagram -- cut very thin slices (nanometer resolutions).  Electron microscope used for this.  Detect slice structure separately, then reconnect slices.  So it's 3D mapping, so far done on pieces of brain, not whole brain.  
+Connectomics is modern anatomy wiring diagram -- cut very thin slices (nanometer resolutions).  Electron microscope used for this.  Detect slice structure separately, then reconnect slices.  So it's 3D mapping, so far done on pieces of brain, not whole brain.  
 
 Prospects for connectomics is to give us a complete blueprint of healthy and sick brain, and we may start to bridge the "structure-to-function" problem, and get into simulation-based research.
 
-## BrainBow
+### BrainBow
 
 Genetic staining of neurons in vivo (light microscope -- micrometer resolution).  Harvard messing with mice genes, inserting pieces of DNA, when DNA is expressed, some cell types become colorful because of floursecent proteins (hence Brainbow).  By the way, synapses are too small for this resolution, but can see general placement of neurons.  Lot of art exhibitions based on this.  
 
 Prospects of this are 1) structural basis for learning; 2) taggging and genetic characterization of different cell types, eg. in retina, or find out how many cell types you have 3) Tracing connections in circuits, short and long range.
 
-## Brain Machine Interface
+### Brain Machine Interface
 
 Electrodes implanted and listening to a single cell's spike, or a large group of cells.  Spikes are the common language.  Talks to an Artificial Neural Network, and then to a robotic arm.  Or can go the other way to ameliorate parkinsons, pulses from battery into basal ganglia.  Basically a pacemaker for brain.  Future challenges are 1) to be able to telemetrically record from within the brain without invasive electodes 2) real-time signal analysis. 3) Close the loop for movement with touching.
 
-## Optogenetics
+### Optogenetics
 
 Idea is to tweak the genetics of cells to plant probes that are sensitive to light, so you can shine light of particular wavelength and have it generate a signal.  In nature, only retina is sensitive to light.  But existence of retinal receptors means there are genes that can code for molecules that are sensitive to light.  With two examples.  Ion channel Rhodopsin spikes when blue light shines on it. C.f. [Rhodopsin](https://en.wikipedia.org/wiki/Rhodopsin).  Other example Natronomas pharaonis, yellow light prevents spikes.  Movie from Janelia Farm (aka now Janelia Research Campus), can induce mice to drink with blue light on certain group of cells.
 
-## Blue Brain Project - Brain Simulation
+### Blue Brain Project - Brain Simulation
 
 Computer simulation (modeling) of neural circuits.  Lord Kelvin (William Thompson) quote:
 "I am never content until I have constructed a mechanical model of the subject I am studying. If I succeed in making one, I understand; otherwise I do not." [BL]
@@ -47,4 +49,68 @@ Uses powerful "[Blue-Gene](https://en.wikipedia.org/wiki/IBM_Blue_Gene)" IBM com
 Modelling helps us to understand the network (e.g. by visualizing model in action).
 
 So this is "simulation-based medicine [or s-b research]"
+
+## Week Two
+
+### The Neuron
+
+* The neuron
+* The axon
+* Dendrites / dendritic spines
+* Neuron types
+* Synapses
+* Electrical signals
+	* Spike (action potentitial)
+	* Post-Synaptic Potential (PSP)
+* Neuron as I/O Device
+
+Historical perspective first, Hooke, Schwann, Golgi, Ramon Y Cajal, ... and interestingly, Sigmund Freud (drawing crayfish neurons).  
+
+Nice images from Blue Brain, also videos of activity of living brain.
+
+### The Neuron Doctrine
+
+Controversy between Camillo Golgi and Santiago Ramon y Cajal (RyC). Ramon y Cajal originally an artist.  Looking through primitive microscope at different parts of nervous system in different animals, using Golgi staining method.
+
+RyC by looking at anatomy only, conceived that information flows through axon, to and then to dendrites.  Could not really see communication, drew arrows showing information flow, then thought from dendrite to cell body, to axon, to dendrite of next neuron.  So theory that we're dealing with individual cells is the neuron doctrine.  The theory of dynamic polarization is that the receiving dendrite is somehow polarized, then flows to body, then axon.
+
+N.B. RyC:
+
+	* Dendrites are the receptive devices (Input).
+	* Axons are the sending (output) devices.
+
+We agree with this.  Golgi did not like this -- thought they were all connected physically.  1906 was a debate at the podium for Nobel prize. 
+
+Both axons and dendrites look like trees, axonal trees, dendritic trees.  Axonal trees have varicosities (boutons) -- this is where the neurotransmitters send the signal.  Sometimes one axon will have 5,000 synapses
+
+### The neuron as an input / output device
+
+**NB:  Really important introduction**
+
+NOTE:  This [video lesson](https://www.coursera.org/learn/synapses/lecture/97K4b/the-neuron-as-i-o-device-part-i) has an excellent abstracted image associated with it.
+
+Many (like up to thoushands) of axons (synapses) connect to one dendrite.  Make little change in voltage, local synaptic potential.  Certain types of cells (red in picture) make positive voltage (excitatory), the other ones are inhibitory.  All together they sum the input, and the cell "decides" whether to generate an output yes or no.  Output if there is one will be a set of spikes, tak tak tak etc.
+
+Image too of pyramidal cell from cortex.
+
+### The Axon
+
+Just after the soma, axon initial segment (AIS), hot region generating spikes.  Consists of special ion channelss that make this region hot, i.e. enables generation of spike.  This is where action potential starts, then it propagates down the axon, to all axon branches.  Between axon segments are nodes of Ranvier. Between nodes of Ranvier are inter-nodes, with myelin sheath.  Nodes of ranvier don't have myelin sheath.  Myelin is a lipid, it electrically isolates axon.  Terminals of axon are pre-synaptic sites, boutons or varicosities; up to 5,000 per axon.  No myelin on varicosity -- it's "bare wire".
+
+Myelin internodes generated by special set of non-neuronal cells.  These are sometimes called glial cells, or have other names too that aren't worth remembering but are oligodendrocytes.  Electrical potential gets boosted in nodes of Ranvier.
+
+Note that dendrites never have myelin.
+
+By the way multiple sclerosis is a disease where the immune system attacks the myelen sheath, and messes with the signal flow.
+
+Nodes of Ranvier amplify (boost) signal.
+
+Summary:
+
+* Axon is highly branched structure emerging from soma.  Can branch locally or go centimeters or even meters away from soma.
+* Starts with hot axon initial segment, where spike starts, then it propagates along axon.
+* Covered with myelin, except in nodes of ranvier, where there are hot ion channels
+* Has frequent swellings (boutons), where the neurotransmitter "hides" (pre-synaptic site).
+
+Most importantly, axon is an output electrical device.  It generates and carries electrical signals called spikes.
 
