@@ -1,6 +1,6 @@
 # Notes on Synapses, Neurons, and Brains
 
-On October 18, 2023, I started on the course [Synapses, Neurons, and Brains](https://www.coursera.org/learn/synapses).  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.
+On October 18, 2023, I started on the course [Synapses, Neurons, and Brains](https://www.coursera.org/learn/synapses).  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.  I also have some much more preliminary [Review Notes](SynapseseNeuronsAndBrainsReviewNotes).
 
 ## Week One
 
@@ -114,3 +114,71 @@ Summary:
 
 Most importantly, axon is an output electrical device.  It generates and carries electrical signals called spikes.
 
+### The Dendrite
+10/20/2023
+
+Pictures of dendrites (links below to 3rd party resources)
+
+* [Purkinje cells](https://en.wikipedia.org/wiki/Purkinje_cell) from cerebellum, "small brain".  Flat, bush-like.
+* [Starburst amacrine](https://en.wikipedia.org/wiki/Amacrine_cell) retina cells.
+* [Pyramidal cell](https://en.wikipedia.org/wiki/Pyramidal_cell) -- common in hippocampus; pyramidal structure (triangular looking) cell body.
+
+Point here is name of cell often depends on structure of dendritic tree.
+
+RyC drawing shown pyramidal cell, with small branches, dendtritic spines, so this type is a spiney dendritic tree, and these spines are "where synapses are made onto".  Pyramidal cells are spiney.  Sometimes 10,000 spines per pyramidal cell.  On his death bed RyC was drawing spines.
+
+Typical number for pyradimal cell in cortex: 
+
+* total area 20,000 square micrometer [(= micron).  One millionth of a meter]
+* each spine has area of 1 square micrometer
+* # of dendritic spines per cell, 8,000, average.  But could be 30,000 or more.
+* Listen to 10,000 synapses
+
+In cortex, in terms of area, 50-60% of brain area is dendrites.
+
+Pictures of human pyramidal cells from cortex.  Showing apical tree (point of pyramid) and basal tree (again see [Pyramidal cell](https://en.wikipedia.org/wiki/Pyramidal_cell)).
+
+Takeaway:  cortical pyramidal cells have dendritic spines.
+
+### Neuron Types
+
+Can classify by:
+
+* Anatomical features (e.g. "face" of dendrites and axons)
+* Functional, .e.g. excitatory (principle) vs inhibitory (interneurons) -- balance between two is very important, by way.
+* By electrical spiking pattern.  Some cells fire more or less, different patterns.
+* By chemical characteristics.
+* Using gene expression
+
+Count of neurons in human brain:  a number close to 100 billion.
+
+Work on this is not final.  # of types not final, depends on classification, but could say several thousand types overall.
+
+Example (detail on point 2), in neocortex, principle (excitatory cells) have long axon that projects to other brain regions, whereas interneurons (inhibitory) have local axonal projection.
+
+2013 work by Javier DeFelipe to classify inhibitory neurons, Chandelier, large baskent, horse-tail, Cajal-Retzius, etc. etc.  Depends largely in differences in dendritic tree or sometimes axonal structure.  Why different structures an interesting question.  [I also wonder if this needs to be modeled for an artificial (ANN) human.]
+
+Slide of electrically-based (spiking) classification.  Some fire a lot (regular).  Some "stutter".  We don't understand the structual reason for this.
+
+### The Synapse
+
+The synapses is a chemical / electrical device that connects axon of neuron A to dendrites of nueron B.  Pictures of very close axon - denrite connections.  Single pre-synaptic cell can make contact at several locations to the same post-synaptic cell.  Using electron microscope, can see axon bouton (pre-synaptic) connecting to dendritic spine (post-synaptic). They don't physically touch, but very very small gap.  
+
+Side note when axon connecting to spiny dendrite, this is typically excitatory type connection.  Electron microscope view showing showing axon A with small vesicles, a very small gap, and a dentridic spine, B  -- vesicles contain neurotransmitter, e.g. 5,000 molecules of glutamate, acytlcoline, or seratonin.  So vessicles live in axonal varicosities (boutons).  Neurotransmitter travels through gap to dendrite spine.  Spike is digital, all or none.  When spike arrives, secretes the neurotransmitter -- spike is the trigger.  Post-synaptic, you'll also see a signal too, "excitatory synaptic potential".  So two types of activity:
+
+* Action potential (from axon)
+* Post-synaptic potential (could be excitatory or inhibitory)
+
+Major difference is action potential is digital signal.  The post-synaptic potential is graded, analog signal [this reminds me of how ANNs are modeled?].  So digital signal on one side to analog on other side. So digital-to-analog converter.
+
+Slide on synapse vesicle quantal release.  
+
+### The Neuron as Output Device: Part 2
+
+Summary of Lesson 2
+
+* Different cell types.
+* Excitatory input can come from very far away, e.g., thalmus to the cortex.
+* Cell may receive 1500 synapses from neighbors, 360 from thalmus, etc.
+* Now reshow important diagram
+* In the receiving cells, have Excitatory post-synaptic potentials (EPSPs) and Inhibitory post-synaptic potentials (IPSPs) -- eventually all gets summed up in the cell body, may reach threshold for action potential generation.
