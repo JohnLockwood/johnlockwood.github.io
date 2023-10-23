@@ -21,6 +21,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 extensions = ['myst_parser']
 
+myst_enable_extensions = [
+	"dollarmath"
+]
+
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',

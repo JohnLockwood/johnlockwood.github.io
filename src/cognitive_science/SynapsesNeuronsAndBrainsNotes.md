@@ -178,7 +178,96 @@ Slide on synapse vesicle quantal release.
 Summary of Lesson 2
 
 * Different cell types.
-* Excitatory input can come from very far away, e.g., thalmus to the cortex.
-* Cell may receive 1500 synapses from neighbors, 360 from thalmus, etc.
+* Excitatory input can come from very far away, e.g., thalamus to the cortex.
+* Cell may receive 1500 synapses from neighbors, 360 from thalamus, etc.
 * Now reshow important diagram
 * In the receiving cells, have Excitatory post-synaptic potentials (EPSPs) and Inhibitory post-synaptic potentials (IPSPs) -- eventually all gets summed up in the cell body, may reach threshold for action potential generation.
+
+First quiz first attempt got 92.85% on attempt one, 10/21/2024
+
+
+## Week 3 - Background on Electricity
+
+### The Cell as an RC Circuit
+
+Today starting with passive properties.  Already mentioned, pre-synaptic we have action potential, digital, all or none.  In this lesson we're talking about next part, the synatpic potential, in the dendrite.  So in week 3: 
+* link anatomical structure to idea of passive-RC circuit.  
+* talk about membrane, and the membrane time-constant (Tau-M)
+* Temporal summation of repeated inputs -- "electrical memory"
+* Generation of post-synaptic-potential (PSP) in post-synaptic membrande
+* Continue talking about excitatory (E) and inhibitory (I) synapses.
+* E & I interaction
+
+Start with a small patch of membrane, can wrap it into a sphere.  We'll place an electrode, and record dif between inside and outside of cell (voltage).  If we inject a positive current into cell, I (current), if you do this you see a voltrage change (V), the voltage change doesn't look square like current we injected, but it grows over time as a smooth curve, also slowly drops when current stopped.  So cell is not a mere resistor, because if it were, and you injected I, you would get a voltage that consists of I x R.  (Ohm's law - V = IR).  Not like that, it takes time t to grow, and also to decay.  We call curved response to I, we get a [depolarizing current](https://en.wikipedia.org/wiki/Depolarization), i.e. becoming less negative.
+
+When people saw this, they though that a cell that acts like an [R-C circuit](https://en.wikipedia.org/wiki/RC_circuit).  If you inject I into such a circuit, it takes time to grow, and when stop injecting current, takes time to go back to baseline or zero.  So RC circuit is a good approximation of such behavior.
+
+### The voltage equation for the passive cell
+
+The math for an RC circuit, want to again measure V (voltage) in response to current (I):
+
+Total current is either resistance current or capacitance current.
+
+$$ C\space\frac{dV}{dt} + \frac{V}{R} = I $$
+
+So capacitative current + resistance current is equal to Current (I).
+
+This is basicall [Kirchoff's Law](https://en.wikipedia.org/wiki/Kirchhoff's_circuit_laws#Kirchhoff's_voltage_law)
+
+If you solve this equation for V you get behavior of cell, solution is linear because C is constant, resistance is constant, current input (I) is constant.  end up with dv/dt as a solution, which is a derviative, so shows change over time.
+
+Initial conditions, V (t = 0) = 0, and up with some V after certain time.
+
+$$ V(t) = I*R\space\space(1 - e^{\frac{-t}{RC}}) $$
+
+At t = 0, e to zero is one, 1-1 = 0, so V(t = 0) = 0, or
+
+$$V(t = 0) = 0$$
+
+If inject current for infinite time, e to power of -t goes to zero, so IR * (1 - 0) = IR so 
+
+$$ V(t = \infty) = IR $$
+
+This last is steady state.
+
+So these are two ends.
+
+### The Membrane Time Constant
+
+This time we want to look at $$t = RC$$.
+
+By the way, RC is many times called tau,
+
+$$ \tau $$ 
+
+or sometimes
+
+$$ \tau_{m} $$
+
+i.e. tau membrane.
+
+Looking at t = RC = Tau, what is value of V.  Well ends up being 
+
+$$ 1 - e^{-1} $$
+
+So 
+
+$$ V(t = \tau) = IR * (1 - e^{-1}) $$
+
+The one minus e to the -1 is = .63, so
+
+$$ V(t = \tau) = .63 IR  $$
+ 
+$$ IR = \infty $$
+
+Can use same equation to ask how will voltage decay (attenuation) when we stop the current.  So still exponential, but not 1 - exponent, jjust exponent.  Attenuation like build-up.
+
+Tau-M is caled the membrane time constant (very important).
+
+Attenuation function is 
+
+$$ V(t) = V * e^{\frac{-t}{\tau_{m}}} $$
+
+
+
+

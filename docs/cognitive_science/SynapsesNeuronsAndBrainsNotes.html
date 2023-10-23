@@ -16,6 +16,8 @@
         <script src="../_static/documentation_options.js?v=2709fde1"></script>
         <script src="../_static/doctools.js?v=888ff710"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+        <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -67,6 +69,12 @@
 <li class="toctree-l4"><a class="reference internal" href="#the-neuron-as-output-device-part-2">The Neuron as Output Device: Part 2</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#week-3-background-on-electricity">Week 3 - Background on Electricity</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#the-cell-as-an-rc-circuit">The Cell as an RC Circuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-voltage-equation-for-the-passive-cell">The voltage equation for the passive cell</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-membrane-time-constant">The Membrane Time Constant</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="OnReadingConsciousnessExplained.html">On Reading Dennett’s <em>Consciousness Explained</em></a></li>
@@ -101,7 +109,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="notes-on-synapses-neurons-and-brains">
+  <section class="tex2jax_ignore mathjax_ignore" id="notes-on-synapses-neurons-and-brains">
 <h1>Notes on Synapses, Neurons, and Brains<a class="headerlink" href="#notes-on-synapses-neurons-and-brains" title="Link to this heading"></a></h1>
 <p>On October 18, 2023, I started on the course <a class="reference external" href="https://www.coursera.org/learn/synapses">Synapses, Neurons, and Brains</a>.  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.  I also have some much more preliminary <a class="reference internal" href="SynapseseNeuronsAndBrainsReviewNotes.html"><span class="doc std std-doc">Review Notes</span></a>.</p>
 <section id="week-one">
@@ -260,11 +268,77 @@
 <p>Summary of Lesson 2</p>
 <ul class="simple">
 <li><p>Different cell types.</p></li>
-<li><p>Excitatory input can come from very far away, e.g., thalmus to the cortex.</p></li>
-<li><p>Cell may receive 1500 synapses from neighbors, 360 from thalmus, etc.</p></li>
+<li><p>Excitatory input can come from very far away, e.g., thalamus to the cortex.</p></li>
+<li><p>Cell may receive 1500 synapses from neighbors, 360 from thalamus, etc.</p></li>
 <li><p>Now reshow important diagram</p></li>
 <li><p>In the receiving cells, have Excitatory post-synaptic potentials (EPSPs) and Inhibitory post-synaptic potentials (IPSPs) – eventually all gets summed up in the cell body, may reach threshold for action potential generation.</p></li>
 </ul>
+<p>First quiz first attempt got 92.85% on attempt one, 10/21/2024</p>
+</section>
+</section>
+<section id="week-3-background-on-electricity">
+<h2>Week 3 - Background on Electricity<a class="headerlink" href="#week-3-background-on-electricity" title="Link to this heading"></a></h2>
+<section id="the-cell-as-an-rc-circuit">
+<h3>The Cell as an RC Circuit<a class="headerlink" href="#the-cell-as-an-rc-circuit" title="Link to this heading"></a></h3>
+<p>Today starting with passive properties.  Already mentioned, pre-synaptic we have action potential, digital, all or none.  In this lesson we’re talking about next part, the synatpic potential, in the dendrite.  So in week 3:</p>
+<ul class="simple">
+<li><p>link anatomical structure to idea of passive-RC circuit.</p></li>
+<li><p>talk about membrane, and the membrane time-constant (Tau-M)</p></li>
+<li><p>Temporal summation of repeated inputs – “electrical memory”</p></li>
+<li><p>Generation of post-synaptic-potential (PSP) in post-synaptic membrande</p></li>
+<li><p>Continue talking about excitatory (E) and inhibitory (I) synapses.</p></li>
+<li><p>E &amp; I interaction</p></li>
+</ul>
+<p>Start with a small patch of membrane, can wrap it into a sphere.  We’ll place an electrode, and record dif between inside and outside of cell (voltage).  If we inject a positive current into cell, I (current), if you do this you see a voltrage change (V), the voltage change doesn’t look square like current we injected, but it grows over time as a smooth curve, also slowly drops when current stopped.  So cell is not a mere resistor, because if it were, and you injected I, you would get a voltage that consists of I x R.  (Ohm’s law - V = IR).  Not like that, it takes time t to grow, and also to decay.  We call curved response to I, we get a <a class="reference external" href="https://en.wikipedia.org/wiki/Depolarization">depolarizing current</a>, i.e. becoming less negative.</p>
+<p>When people saw this, they though that a cell that acts like an <a class="reference external" href="https://en.wikipedia.org/wiki/RC_circuit">R-C circuit</a>.  If you inject I into such a circuit, it takes time to grow, and when stop injecting current, takes time to go back to baseline or zero.  So RC circuit is a good approximation of such behavior.</p>
+</section>
+<section id="the-voltage-equation-for-the-passive-cell">
+<h3>The voltage equation for the passive cell<a class="headerlink" href="#the-voltage-equation-for-the-passive-cell" title="Link to this heading"></a></h3>
+<p>The math for an RC circuit, want to again measure V (voltage) in response to current (I):</p>
+<p>Total current is either resistance current or capacitance current.</p>
+<div class="math notranslate nohighlight">
+\[ C\space\frac{dV}{dt} + \frac{V}{R} = I \]</div>
+<p>So capacitative current + resistance current is equal to Current (I).</p>
+<p>This is basicall <a class="reference external" href="https://en.wikipedia.org/wiki/Kirchhoff's_circuit_laws#Kirchhoff's_voltage_law">Kirchoff’s Law</a></p>
+<p>If you solve this equation for V you get behavior of cell, solution is linear because C is constant, resistance is constant, current input (I) is constant.  end up with dv/dt as a solution, which is a derviative, so shows change over time.</p>
+<p>Initial conditions, V (t = 0) = 0, and up with some V after certain time.</p>
+<div class="math notranslate nohighlight">
+\[ V(t) = I*R\space\space(1 - e^{\frac{-t}{RC}}) \]</div>
+<p>At t = 0, e to zero is one, 1-1 = 0, so V(t = 0) = 0, or</p>
+<div class="math notranslate nohighlight">
+\[V(t = 0) = 0\]</div>
+<p>If inject current for infinite time, e to power of -t goes to zero, so IR * (1 - 0) = IR so</p>
+<div class="math notranslate nohighlight">
+\[ V(t = \infty) = IR \]</div>
+<p>This last is steady state.</p>
+<p>So these are two ends.</p>
+</section>
+<section id="the-membrane-time-constant">
+<h3>The Membrane Time Constant<a class="headerlink" href="#the-membrane-time-constant" title="Link to this heading"></a></h3>
+<p>This time we want to look at $<span class="math notranslate nohighlight">\(t = RC\)</span>$.</p>
+<p>By the way, RC is many times called tau,</p>
+<div class="math notranslate nohighlight">
+\[ \tau \]</div>
+<p>or sometimes</p>
+<div class="math notranslate nohighlight">
+\[ \tau_{m} \]</div>
+<p>i.e. tau membrane.</p>
+<p>Looking at t = RC = Tau, what is value of V.  Well ends up being</p>
+<div class="math notranslate nohighlight">
+\[ 1 - e^{-1} \]</div>
+<p>So</p>
+<div class="math notranslate nohighlight">
+\[ V(t = \tau) = IR * (1 - e^{-1}) \]</div>
+<p>The one minus e to the -1 is = .63, so</p>
+<div class="math notranslate nohighlight">
+\[ V(t = \tau) = .63 IR  \]</div>
+<div class="math notranslate nohighlight">
+\[ IR = \infty \]</div>
+<p>Can use same equation to ask how will voltage decay (attenuation) when we stop the current.  So still exponential, but not 1 - exponent, jjust exponent.  Attenuation like build-up.</p>
+<p>Tau-M is caled the membrane time constant (very important).</p>
+<p>Attenuation function is</p>
+<div class="math notranslate nohighlight">
+\[ V(t) = V * e^{\frac{-t}{\tau_{m}}} \]</div>
 </section>
 </section>
 </section>
