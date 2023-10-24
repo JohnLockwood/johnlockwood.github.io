@@ -69,10 +69,18 @@
 <li class="toctree-l4"><a class="reference internal" href="#the-neuron-as-output-device-part-2">The Neuron as Output Device: Part 2</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#week-3-background-on-electricity">Week 3 - Background on Electricity</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#week-3-electrifying-brains-passive-electrical-signals">Week 3 - Electrifying Brains – Passive Electrical SIgnals</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#the-cell-as-an-rc-circuit">The Cell as an RC Circuit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#the-voltage-equation-for-the-passive-cell">The voltage equation for the passive cell</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#the-membrane-time-constant">The Membrane Time Constant</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#temporal-summation">Temporal Summation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-resting-potential">The Resting Potential</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-synaptic-potential-part-i">The Synaptic Potential, Part I</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-synaptic-conductance">The Synaptic Conductance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-synaptic-battery">The Synaptic Battery</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-synaptic-potential-part-ii">The Synaptic Potential, Part II</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-voltage-equation-for-the-synapse-and-epsp-and-ipsp">The Voltage Equation for the Synapse and EPSP and IPSP</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#summary">Summary</a></li>
 </ul>
 </li>
 </ul>
@@ -225,11 +233,9 @@
 <p>Point here is name of cell often depends on structure of dendritic tree.</p>
 <p>RyC drawing shown pyramidal cell, with small branches, dendtritic spines, so this type is a spiney dendritic tree, and these spines are “where synapses are made onto”.  Pyramidal cells are spiney.  Sometimes 10,000 spines per pyramidal cell.  On his death bed RyC was drawing spines.</p>
 <p>Typical number for pyradimal cell in cortex:</p>
-<ul>
+<ul class="simple">
 <li><p>total area 20,000 square micrometer [(= micron).  One millionth of a meter]</p></li>
-<li><p>each spine has area of 1 square micrometer</p></li>
-<li><h1 class="rubric" id="of-dendritic-spines-per-cell-8-000-average-but-could-be-30-000-or-more">of dendritic spines per cell, 8,000, average.  But could be 30,000 or more.</h1>
-</li>
+<li><p>each spine has area of 1 square micrometer of dendritic spines per cell, 8,000, average.  But could be 30,000 or more.</p></li>
 <li><p>Listen to 10,000 synapses</p></li>
 </ul>
 <p>In cortex, in terms of area, 50-60% of brain area is dendrites.</p>
@@ -276,8 +282,8 @@
 <p>First quiz first attempt got 92.85% on attempt one, 10/21/2024</p>
 </section>
 </section>
-<section id="week-3-background-on-electricity">
-<h2>Week 3 - Background on Electricity<a class="headerlink" href="#week-3-background-on-electricity" title="Link to this heading"></a></h2>
+<section id="week-3-electrifying-brains-passive-electrical-signals">
+<h2>Week 3 - Electrifying Brains – Passive Electrical SIgnals<a class="headerlink" href="#week-3-electrifying-brains-passive-electrical-signals" title="Link to this heading"></a></h2>
 <section id="the-cell-as-an-rc-circuit">
 <h3>The Cell as an RC Circuit<a class="headerlink" href="#the-cell-as-an-rc-circuit" title="Link to this heading"></a></h3>
 <p>Today starting with passive properties.  Already mentioned, pre-synaptic we have action potential, digital, all or none.  In this lesson we’re talking about next part, the synatpic potential, in the dendrite.  So in week 3:</p>
@@ -339,6 +345,101 @@
 <p>Attenuation function is</p>
 <div class="math notranslate nohighlight">
 \[ V(t) = V * e^{\frac{-t}{\tau_{m}}} \]</div>
+<p>Growth and decay are mirror images of one another, goverened by Tau-M, the membrane time constant.  It governs how fast the voltage develops / attenuates.  If time constant long, will take a long time to attenuate, and vice versa.  (earlier I believe he said RC (tau) in seconds).</p>
+<p>This constant in effect tells you about the electrical memory of cell.  Short means it “forgets” quickly.</p>
+<p>Another important parameter is R, sometimes called</p>
+<div class="math notranslate nohighlight">
+\[ R_{in} \]</div>
+<p>R input, or input resistance.</p>
+<p>R directly tells you maximum voltage you can reach for a given I.  RC tells you how fast go up and down.</p>
+<p>So critical parameters for passive RC circuits are:</p>
+<ul class="simple">
+<li><p>R</p></li>
+<li><p>RC</p></li>
+</ul>
+</section>
+<section id="temporal-summation">
+<h3>Temporal Summation<a class="headerlink" href="#temporal-summation" title="Link to this heading"></a></h3>
+<p>An important consequence of time constant, what if inject an intermittent current, not a constant one.  So I is intermittent.  Voltage goes up and then attenuates, but not all the way down, so following second period of I, get a buildup on top of remainder of previous one.  This is called temporal summation.</p>
+<p>If would have done it constantly, would have gotten a larger buildup.  IR is maximum you can get.</p>
+<p>Next shows negative current, here voltage will be pushed down.  The name for this [mentioned in passing] is <a class="reference external" href="https://en.wikipedia.org/wiki/Hyperpolarization_(biology)">hyperpolarization</a>.  (When cell gets more positive, it’s called depolarization, or hypopolarization).</p>
+<p>This temporal summation of positive and negative current is “exactly what synapses are doing”.</p>
+</section>
+<section id="the-resting-potential">
+<h3>The Resting Potential<a class="headerlink" href="#the-resting-potential" title="Link to this heading"></a></h3>
+<p>Now back to cell membrane (circle) near R/C diagram – this is the “Passive Membrane Model”.</p>
+<p>New:  When you implant the electrode into the cell, suddenly see a drop in voltage.  I.e., cell is more negative than outside, so drop in voltage is from zero to “something like -70 mV” (millivolts).</p>
+<p>So inside of cell is about 70 mV more negative than the outside of the cell. This is called the resting potential, i.e., with no current.  This negative charge inside requires energy to maintain.  In any brain, inside is more negative, so because of this we need to add a battery to the original RC circuit.  (This appears to be a good <a class="reference external" href="https://www.cns.nyu.edu/~david/handouts/membrane.pdf">related article</a>).</p>
+<p>Resting potential symbol:</p>
+<div class="math notranslate nohighlight">
+\[ E_{\space rest} \]</div>
+<p>Again:
+More positive:  Depolarization
+More negative:  Hyperpolarization</p>
+<p>Next stage is to speak about synapses, which can add this current….</p>
+</section>
+<section id="the-synaptic-potential-part-i">
+<h3>The Synaptic Potential, Part I<a class="headerlink" href="#the-synaptic-potential-part-i" title="Link to this heading"></a></h3>
+<p>Up until now we’ve dealt with passive proprerties of cell, resting potential.</p>
+<p>BTW, ballpark values for R * C, Time constant, = Tau, of on the order of 20 milliseconds</p>
+<p>Brief review of synapse, vessicles of axon meeting receptors of dendrite – what happens when neurotransmitter interacts with receptors.  We get new ion channels opened in the receptor, which enable the flow of current, either from out -&gt; in or from in -&gt; out.  So on the dendrite side eventually, result of neurotransmitter uptake is new ion channels.  Channel behaves like a conductor or a resistor, we call it</p>
+<div class="math notranslate nohighlight">
+\[ g_{\space syn} \]</div>
+<p>Wait – now talking about it as a battery for the synapse:</p>
+<div class="math notranslate nohighlight">
+\[ E_{\space syn} \]</div>
+</section>
+<section id="the-synaptic-conductance">
+<h3>The Synaptic Conductance<a class="headerlink" href="#the-synaptic-conductance" title="Link to this heading"></a></h3>
+<p>Looking at dendritic side membrane, earlier said two types of channels.</p>
+<ul class="simple">
+<li><p>One type is passive type that, in total, represent the R value (resistance) in the cell.   (“white channels” for purposes of drawing)</p></li>
+<li><p>Other type (“red channels” for purposes of drawing), when synapse interacting w/ neurotransmitter.  These then are synaptic channels.</p></li>
+</ul>
+<p>We represent the conductance of these with</p>
+<div class="math notranslate nohighlight">
+\[ g_{\space r} \]</div>
+<p>for the r (resting channel), passive resistance, and</p>
+<div class="math notranslate nohighlight">
+\[ g_{\space s} \]</div>
+<p>for the synaptic channels.</p>
+<p>Red channels only open in response to reaction with a neurtransmitter.  Collectively they result in something called the synaptic voltage.</p>
+<p>But we need to also discuss the Synaptic Battery (next)</p>
+</section>
+<section id="the-synaptic-battery">
+<h3>The Synaptic Battery<a class="headerlink" href="#the-synaptic-battery" title="Link to this heading"></a></h3>
+<p>Difference in ion concentration is a general property of living cells.  In particular in nerve cells.  For instance, outside nerve cells there are a LOT of (positive +) sodium channels, and much fewer inside cells.  In case of potassium, opposite is true, lots inside, less outside.</p>
+<p>If you open a particular sodium channel only, because of concentration gradient, you will get positive flow into the cell.  So will get depolarization, John says – and professor says a second later. :)</p>
+<p>So calling it a battery is a way of representing the flow of ions.</p>
+<p>For potassium, because there is more inside, it will flow from inside -&gt; outside, so you will lose positive charge, so cell will become hyperpolarized.</p>
+</section>
+<section id="the-synaptic-potential-part-ii">
+<h3>The Synaptic Potential, Part II<a class="headerlink" href="#the-synaptic-potential-part-ii" title="Link to this heading"></a></h3>
+<p>So, again:</p>
+<ul class="simple">
+<li><p>Post-synaptic membrane has both passive channel and synaptic channel.</p></li>
+<li><p>Specific ion channels get opened, allows current to flow either in or out.</p></li>
+</ul>
+<p>Circuit has <span class="math notranslate nohighlight">\( g_{\space r} \)</span> (g-rest), resting conductance plus resting battery, <span class="math notranslate nohighlight">\( E_{\space r} \)</span>, the whole -70 millivolts – this is the passive part of circuit.</p>
+<p>Synaptic part is <span class="math notranslate nohighlight">\( g_{\space s} \)</span> synaptic conductance plus <span class="math notranslate nohighlight">\( E_{\space s} \)</span>, synaptic battery.</p>
+<p>Equation before was <span class="math notranslate nohighlight">\( C \frac{dV}{dt} + g_{r} (V - E_{r})\)</span>  First part is capacitative current, second part of that is passive current.</p>
+<p>Now equation with red current (synaptic part):</p>
+<p><span class="math notranslate nohighlight">\( C \frac{dV}{dt} + g_{r} (V - E_{r})  + g_{s} ( V - E_{s}) = 0 \)</span></p>
+<p>Last term is synaptic current.  Sum of all terms in above equation = 0 according to kirchoff’s law.  You can solve this equation to get that last V – the voltage generated by the synapse.</p>
+</section>
+<section id="the-voltage-equation-for-the-synapse-and-epsp-and-ipsp">
+<h3>The Voltage Equation for the Synapse and EPSP and IPSP<a class="headerlink" href="#the-voltage-equation-for-the-synapse-and-epsp-and-ipsp" title="Link to this heading"></a></h3>
+<p>Again, the current equation is:</p>
+<p><span class="math notranslate nohighlight">\( C \frac{dV}{dt} + g_{r} (V - E_{r})  + g_{s} ( V - E_{s}) = 0 \)</span></p>
+<p>If solve it for V – the voltage change due to activity of synapse, you get this equation:</p>
+<div class="math notranslate nohighlight">
+\[ V(t) = \frac{g_{r} \space E_{r} + g_{s} \space E_{s}}{g_{r} + g_{s}} \space (1 - e^{-t \frac{g_{r} + g_{s}} {c}})\]</div>
+<p>There is a ceiling to positive or negative synaptic battery.</p>
+<p>Reasonable range is something like +200 millivolts to -90 millivolts.  Whole world represented by signals in this range. :)  If voltage goes up, it’s EPSP (Excitatory Post-Synaptic Potential). If it goes down, it’s IPSP (Inhibitory Post-Synaptic Potential)</p>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Link to this heading"></a></h3>
+<p>EPSP and IPSP diagram, we have time consant – if both at both time, have temporal summation.</p>
 </section>
 </section>
 </section>
