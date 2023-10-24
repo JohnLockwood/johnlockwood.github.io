@@ -59,6 +59,7 @@ MIT OpenCourseWare has a course, [The Human Brain](https://ocw.mit.edu/courses/9
 
 [Your brain hallucinates your conscious reality ](https://www.youtube.com/watch?v=lyu7v7nWzfo) - Ted Talk by Anil Seth, quite good, with different forms of the self.
 
+Donald Hoffman [Do We See Reality as it Is](https://www.youtube.com/watch?v=oYp5XuGYqqY) argues that our perceptual system evolved to keep us alive, not to display reality accuratlely.  This apparently is the topic of his book, [The Case Against Reality: Why Evolution Hid the Truth from Our Eyes](https://www.amazon.com/Case-Against-Reality-Evolution-Truth-ebook/dp/B07JR1FDXH?ref_=ast_author_mpb).
 ## Useful Sites
 
 BrainFacts.org sports an excellent online app for [interactive gross brain anatomy](https://www.brainfacts.org/3D-Brain).
