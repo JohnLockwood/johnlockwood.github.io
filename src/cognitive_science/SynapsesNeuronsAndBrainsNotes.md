@@ -1,6 +1,6 @@
 # Notes on Synapses, Neurons, and Brains
 
-On October 18, 2023, I started on the course [Synapses, Neurons, and Brains](https://www.coursera.org/learn/synapses).  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.  I also have some much more preliminary [Review Notes](SynapseseNeuronsAndBrainsReviewNotes).
+On October 18, 2023, I started on the course [Synapses, Neurons, and Brains](https://www.coursera.org/learn/synapses) with Professor Idan Segev.  Below are my notes on the course.  As always with notes, expect lots of abbreviated language and shortcuts.  I also have some much more preliminary [Review Notes](SynapseseNeuronsAndBrainsReviewNotes).
 
 ## Week One
 
@@ -185,7 +185,7 @@ Summary of Lesson 2
 First quiz first attempt got 92.85% on attempt one, 10/21/2024
 
 
-## Week 3 - Electrifying Brains -- Passive Electrical SIgnals
+## Week Three - Electrifying Brains -- Passive Electrical SIgnals
 
 ### The Cell as an RC Circuit
 
@@ -233,7 +233,7 @@ So these are two ends.
 
 ### The Membrane Time Constant
 
-This time we want to look at $$t = RC$$.
+This time we want to look at $ t = RC $.
 
 By the way, RC is many times called tau,
 
@@ -259,7 +259,7 @@ $$ V(t = \tau) = .63 IR  $$
  
 $$ IR = \infty $$
 
-Can use same equation to ask how will voltage decay (attenuation) when we stop the current.  So still exponential, but not 1 - exponent, jjust exponent.  Attenuation like build-up.
+Can use same equation to ask how will voltage decay (attenuation) when we stop the current.  So still exponential, but not 1 - exponent, just exponent.  Attenuation like build-up.
 
 Tau-M is caled the membrane time constant (very important).
 
@@ -393,3 +393,30 @@ Reasonable range is something like +200 millivolts to -90 millivolts.  Whole wor
 ### Summary 
 
 EPSP and IPSP diagram, we have time consant -- if both at both time, have temporal summation.
+
+Quiz for this one done on 10/25/2023, got this nice little encouragement along with a 90% grade:
+
+![Grade on second quiz on Electricity and Brains](./Congratulations.png)
+
+## Week Four:  Electrifying Brains - Active Electrical Spikes
+
+### The Hodgkin Huxley Experiments
+
+Now talking about active signals -- the spike!  The all or none, digital phenomenon that comes from the axon. This again is the action potential (axon) -- as opposed to resulting synaptic potential in the dendrite.
+
+Outline:
+
+1. The excitable ("spiking" axon)
+2. The Hodgkin & Huxley experiments (Two giants)
+3. Space clamp and voltage clamp
+4. Membrane conductances/currents underlying the spike
+5. Hodgkin & Huxley model for spike initiation (math. model)
+6. Spike propogation along axon
+7. From synapses to spikes
+
+Two giants:  Sir Alan Lloyd Hodgkin and Sir Andrew Fielding Huxley -- both working in Cambridge before WWII.  Nobel prize 1963. They used the squid as an experimental animal.  Squid has unique property -- a giant axon, that's about 0.5 mm (500 micrometer) wide.  (Axons in brain on the order of micrometers -- too small to work on)
+This allows you to place an electrode (the long way, like a catheter).  Published first view of spike (on oscilloscope) in 1939, by electrically signalling the cell.  Needs stimulus strong enough in depolarizing direction.  Starts from resting potential.  Goes up, then goes back down below resting potential (but gradually creeps back up).  Spike is about 1 millisecond long.
+
+This is a universal activity of nerve cells.
+
+Wrote beautiful set of 4 equations in several papers (1952).  Now we understand action potential in a very compact way.  "I see it as a triumph of theory.  Actually I don't think that today we have such a beautiful theory in neuroscience as the Hodgkin/Huxley theory for the spike."
