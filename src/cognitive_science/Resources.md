@@ -14,6 +14,9 @@ worked through all of these, but as I do, I may link to a review or summary of m
 
 ## Read Next?
 
+[Synaptic Self: How Our Brains Become Who We Are](https://www.amazon.com/Synaptic-Self-How-Brains-Become/dp/0142001783/ref=sr_1_1?crid=266ZKXYUK2S89&keywords=The+Synaptic+self&qid=1698324828&sprefix=the+synaptic+self%2Caps%2C73&sr=8-1)
+written by Joseph LeDoux, a PhD student of Gazzaniga.  LeDoux has a similar theory of emotion to Lisa Feldman Barrett.
+
 [The Self-Assembling Brain: How Neural Networks Grow Smarter](https://www.amazon.com/Self-Assembling-Brain-Neural-Networks-Smarter-ebook/dp/B08MVG2619/ref=sr_1_1?crid=PRQ5H5A3RMA8&keywords=Artificial+vs+biological+neural+networks&qid=1697460077&sprefix=artificial+vs+biological+neural+networks%2Caps%2C70&sr=8-1) by Peter Robin Hiesinger
 
 
@@ -56,6 +59,10 @@ Edx.org has many [courses on Neuroscience](https://www.edx.org/learn/neuroscienc
 MIT OpenCourseWare has a course, [The Human Brain](https://ocw.mit.edu/courses/9-13-the-human-brain-spring-2019/)
 
 ## Video Talks
+
+[How Do Neural Networks Grow Smarter](https://www.youtube.com/watch?v=Xv_JJ2ZuDJM)  Peter Robin Hiesinger -- see The Self-Assembling Brain.  This vide is a lot more accessible, overviews the history of neuroscience and ANNs.  Perceptrons from a 1958 paper by Frank Rosenblatt.  Mark 1 Perceptron machine later.  Idea was that network was wired pretty randomly.  No consensus in Wikipedia page on Biological intelligence.  Hiesinger's point is that we Rosenblatt kind of got it wrong -- we need a combination of connectivity and learning, not just a random network.  Birth of AI - [Dartmouth Workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop) 1956.  Frank Rosenblatt wasn't there.  Their focus was on symbolic logic using von Neumann machines.  These leaders of the field wrote a book "[Perceptrons](https://www.amazon.com/Perceptrons-MIT-Press-Introduction-Computational/dp/0262534770/ref=sr_1_1?crid=170DWFNIQM2XT&keywords=Perceptrons&qid=1698329783&sprefix=perceptrons%2Caps%2C84&sr=8-1)", and talked about all the things Nueral Networks can't do.  Sidelined neural networks as an AI project.  Big progress in last 10 years has been on learning side, focus on self learning, "Make the ANN learn by itself!" (reinforcement learning).  London based startup, DeepMind (now [Google Deepmind](https://deepmind.google/) -- MuZero now a self-learning, naive AI that can play against another player.  McCulloch and Pitts, 1943 -- The Artificial Neuron.  Connectome diagrams great, but don't capture all the chmeistry etc.  Algorithmic Information Theory of Ray Solomonoff. 
+
+Since you can't predict results of evolutionary process (c.f. rule 110) -- you need evolutionary programming to make AI smarter.  Wolfram (mathematica guy) figured out rule 110. :)  Wolfram, [A New Kind of Science](https://www.amazon.com/New-Kind-Science-Stephen-Wolfram/dp/1579550088). Algorithmic Growth and Its Consequences Human Level AI or Artificial General Intelligence.  See also http://selfassemblingbrain.com/.
 
 [Your brain hallucinates your conscious reality ](https://www.youtube.com/watch?v=lyu7v7nWzfo) - Ted Talk by Anil Seth, quite good, with different forms of the self.
 

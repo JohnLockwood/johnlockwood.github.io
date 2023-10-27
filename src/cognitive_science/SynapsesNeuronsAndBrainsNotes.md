@@ -420,3 +420,35 @@ This allows you to place an electrode (the long way, like a catheter).  Publishe
 This is a universal activity of nerve cells.
 
 Wrote beautiful set of 4 equations in several papers (1952).  Now we understand action potential in a very compact way.  "I see it as a triumph of theory.  Actually I don't think that today we have such a beautiful theory in neuroscience as the Hodgkin/Huxley theory for the spike."
+
+### Membrane Currents Underlying the Spike
+
+Example of a votage clamp -- now changing voltage (Hodgkin and Huxley) by a fixed amount.  So there is a voltage change.  Behaves like a passive RC current -- nothing new -- if depolarizing current is sub-threshold.  If depolarize further, "For suprathreshold depolarizing voltage clamp, the recorded membrane current (after the first capacitative current) flows first inwards (into the axon) and later outward (from inside to outside)." -- this is a surprise.  First see capacitative current as before -- as you hold voltage -- see first an inward current into the axon, then curves up.  Remember, voltage is fixed, but then get inward then outward current.  Found that if you used drug, tetrodotoxin (TTX), a fish toxin, if put it on axon, the inward phase disappears, left only with the outward phase.  With tetraethilammonium (TEA) -- now the outward current gets blocked, but leaves inward.  What they found by playing with Na and K concentrations, that inward was Na K.
+
+Found sodium current was inward current (fast -- happens arly on) -- then changes to potassium current later (outward current).  Outward current continues if continue voltage clamp. In 1954D paper by Hodgkin / Huxley, circuit diagram of squid axon.
+
+Have Capacitive current + Early sodium current + later potasium current + leak current (resting state cell is negative).
+
+### Modeling the Membrane Currents
+
+$$ I_{K} = g_{K} (V_{m} - E_{K}); \space \space I_{Na} = g_{Na} (V_{m} - E_{Na})
+$$
+
+I.e. for first one, membrane voltage minus the potassium ion battery times the conductance = the current.  Same for sodium.  In voltage clamp case, we fix $ V_{m} $.  Can try different values of $ V_{m} $m, measuring conductance of potassium and sodium.  Important:  Degree of conductance depends on voltage.  Get more conductance of both depending on voltage.
+
+Summary:
+
+* The slow (K) current (conductance) does not inactivate during voltage clamp (VC)(outward).
+* The K conductance rises slower than it decays at the end of VC.
+* The fast (early) Na conductance inactivates during VC.
+
+H. & H. fitted an equation.  The fact that it grows slower and attenuates faster, rising phase described as function
+$$ (1 - exp(-t))^{4} $$
+and the decay as 
+$$ exp \space (-4t) $$
+
+So then they wrote this equation:
+$$ \newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu} $$
+$$ g_{K} = \overbar{g_{K}}^{n^{4}} $$
+
+Right hand side, "g-k-bar", is maximum conductance, but actual conductance depends on term n -- which is the voltage.  When it's zero, no potassium conductance. When n = 1, you get maximum conductance since $ 1^{4} = 1$  Can also say n repesents the proportion of K-ion channels in the open state.  Tried to relate that 4 to the number of ions are in a certain region of the membrane.
