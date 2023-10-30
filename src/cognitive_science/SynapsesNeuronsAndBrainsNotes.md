@@ -423,9 +423,9 @@ Wrote beautiful set of 4 equations in several papers (1952).  Now we understand 
 
 ### Membrane Currents Underlying the Spike
 
-Example of a votage clamp -- now changing voltage (Hodgkin and Huxley) by a fixed amount.  So there is a voltage change.  Behaves like a passive RC current -- nothing new -- if depolarizing current is sub-threshold.  If depolarize further, "For suprathreshold depolarizing voltage clamp, the recorded membrane current (after the first capacitative current) flows first inwards (into the axon) and later outward (from inside to outside)." -- this is a surprise.  First see capacitative current as before -- as you hold voltage -- see first an inward current into the axon, then curves up.  Remember, voltage is fixed, but then get inward then outward current.  Found that if you used drug, tetrodotoxin (TTX), a fish toxin, if put it on axon, the inward phase disappears, left only with the outward phase.  With tetraethilammonium (TEA) -- now the outward current gets blocked, but leaves inward.  What they found by playing with Na and K concentrations, that inward was Na K.
+Example of a votage clamp -- now changing voltage (Hodgkin and Huxley) by a fixed amount.  So there is a voltage change.  Behaves like a passive RC current -- nothing new -- if depolarizing current is sub-threshold.  If depolarize further, "For suprathreshold depolarizing voltage clamp, the recorded membrane current (after the first capacitative current) flows first inwards (into the axon) and later outward (from inside to outside)." -- this is a surprise.  First see capacitative current as before -- as you hold voltage -- see first an inward current into the axon, then curves up.  Remember, voltage is fixed, but then get inward then outward current.  Found that if you used drug, tetrodotoxin (TTX), a fish toxin, if put it on axon, the inward phase disappears, left only with the outward phase.  With tetraethilammonium (TEA) -- now the outward current gets blocked, but leaves inward.  What they found by playing with Na and K concentrations, that inward was Na and outward was K.
 
-Found sodium current was inward current (fast -- happens arly on) -- then changes to potassium current later (outward current).  Outward current continues if continue voltage clamp. In 1954D paper by Hodgkin / Huxley, circuit diagram of squid axon.
+Found sodium current was inward current (fast -- happens early on) -- then changes to potassium current later (outward current).  Outward current continues if continue voltage clamp. In 1954D paper by Hodgkin / Huxley, circuit diagram of squid axon.
 
 Have Capacitive current + Early sodium current + later potasium current + leak current (resting state cell is negative).
 
@@ -452,3 +452,49 @@ $$ \newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mk
 $$ g_{K} = \overbar{g_{K}}^{n^{4}} $$
 
 Right hand side, "g-k-bar", is maximum conductance, but actual conductance depends on term n -- which is the voltage.  When it's zero, no potassium conductance. When n = 1, you get maximum conductance since $ 1^{4} = 1$  Can also say n repesents the proportion of K-ion channels in the open state.  Tried to relate that 4 to the number of ions are in a certain region of the membrane.
+
+### The H&H Spike Model
+
+Talking about potassium channel.  Can think about $ n^{4} $ as having four gates. Need to move all 4.  Say zero means it's closed.  Can think about n as a probablity, because in range 0-1.  So probablity must be n = 1 to get to all of them to open. 
+
+Already saw activation function:
+
+$$ g_{K} = \overbar{g_{K}}^{n^{4}} $$ 
+
+The rate function that $ n $ depends on in turn is 
+
+$$ \frac{dn}{dt} = \alpha (1 - n) - \beta_{n^{n}}$$
+
+Basically this says you move from open state to closed state as a function of both voltage and time.  $ \alpha $, if big, shifts close state to open state, and $ \beta $ shifts shifts open state to closed state.   $ \alpha $, becomes larger with voltage $ \beta $ becomes smaller with voltage. 
+
+Sodium equation a bit more complicated. 
+
+$$ g_{Na} = m^{3}h\overbar{g}_{Na} $$
+
+$$ \frac{dm}{dt} = \alpha_{m}(1-m)\space-\space\beta m^{m} $$
+
+$$ \frac{dh}{dt} = \alpha_{h}(1-h)\space-\space\beta h^{h} $$
+
+First means that $ m $ opens the channel very fast, but $ h $ closes the channel more slowly.  Two differential equations that follow show how m and h change with time.  Because now dealing with $ m^{3} $, sodium channel has (schematically) three gates.  m gate opens early but h gate closes the channel but slowly. 
+
+Now can see that this prediction and math by H&H, now know that there are parts of channels that are voltage sensors, m fast and starts it, h slower and turns it off.
+
+![Hodgekin/Huxley Equations](./HH_Equations.png)
+
+When you solve equations for V, which appears in quite a few places, you can graph the spike that you actually see.  Since values are voltage dependent, e.g. for sodium, as voltage increases, this opens up channel even more.
+
+Variable notes (mine):
+
+* $ m $ - Sodium activating variable
+* $ h $ - Sodium de-activating variable
+* $ n $ - Potassium activating variable
+
+At same time that start with de-activation of sodium with h variable, also get activation of potassium with the n variable.  So it's an extra help to hyperpolarization.  (Hence overshoots below baseline).
+
+#### The Refratory period:
+
+You can't get a second action potential very early after first one -- have to wait enough time.  It's about 10 milliseconds for full action potential.  So maximally, 100 spikes per second.  This is an experimental finding.  H&H explained it with behavior of both $ h $ (inactivation) variable and the pottasium condactance.  Both h and K conductance are slow.
+
+Can see spikes in any nerve cell, e.g. squid (as we've discussed), or cortical pyramidal cell.  
+
+In living cell, this is a result of cell being de-polarized enough by voltage received from synapses of up 10,000 dendrites (if not too many inhibitory cells)./

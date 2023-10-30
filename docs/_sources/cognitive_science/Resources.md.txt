@@ -70,3 +70,5 @@ Donald Hoffman [Do We See Reality as it Is](https://www.youtube.com/watch?v=oYp5
 ## Useful Sites
 
 BrainFacts.org sports an excellent online app for [interactive gross brain anatomy](https://www.brainfacts.org/3D-Brain).
+
+Allen Institute's [Brain Modelling Toolkit](https://alleninstitute.github.io/bmtk/index.html) is a cool Python library for "building, simulating and analyzing large-scale neural network models."
