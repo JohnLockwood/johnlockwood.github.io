@@ -9,6 +9,8 @@ worked through all of these, but as I do, I may link to a review or summary of m
 
 [Consciousness Explained](OnReadingConsciousnessExplained), by Daniel Dennett.
 
+[The Secret Life of the Mind](TheSecretLifeOfTheMind), by Mariano Sigman.
+
 [How Emotions are Made: The Secret Life of the Brain](https://lisafeldmanbarrett.com/books/how-emotions-are-made/) by Lisa Feldmean Barrett.  I am reading this now.  The main idea is the theory of the "construction of emotions", an active process in which our concepts (driven by language) play a large role.  I should write a longer review.  There's also a [YouTube Video](https://www.youtube.com/watch?v=KliAI9umFyY) by Dr. Barrett.
 
 
