@@ -423,7 +423,9 @@ Wrote beautiful set of 4 equations in several papers (1952).  Now we understand 
 
 ### Membrane Currents Underlying the Spike
 
-Example of a votage clamp -- now changing voltage (Hodgkin and Huxley) by a fixed amount.  So there is a voltage change.  Behaves like a passive RC current -- nothing new -- if depolarizing current is sub-threshold.  If depolarize further, "For suprathreshold depolarizing voltage clamp, the recorded membrane current (after the first capacitative current) flows first inwards (into the axon) and later outward (from inside to outside)." -- this is a surprise.  First see capacitative current as before -- as you hold voltage -- see first an inward current into the axon, then curves up.  Remember, voltage is fixed, but then get inward then outward current.  Found that if you used drug, tetrodotoxin (TTX), a fish toxin, if put it on axon, the inward phase disappears, left only with the outward phase.  With tetraethilammonium (TEA) -- now the outward current gets blocked, but leaves inward.  What they found by playing with Na and K concentrations, that inward was Na and outward was K.
+Example of a votage clamp -- now changing voltage (Hodgkin and Huxley) by a fixed amount.  So there is a voltage change.  Behaves like a passive RC current -- nothing new -- if depolarizing current is sub-threshold.  If depolarize further, "For suprathreshold depolarizing voltage clamp, the recorded membrane current (after the first capacitative current) flows first inwards (into the axon) and later outward (from inside to outside)." -- this is a surprise.  First see capacitative current as before -- as you hold voltage -- see first an inward current into the axon, then curves up.  Remember, voltage is fixed, but then get inward then outward current.  
+
+Found that if you used drug, tetrodotoxin (TTX), a fish toxin, if put it on axon, the inward phase disappears, left only with the outward phase.  With tetraethilammonium (TEA) -- now the outward current gets blocked, but leaves inward.  What they found by playing with Na and K concentrations, that inward was Na and outward was K.
 
 Found sodium current was inward current (fast -- happens early on) -- then changes to potassium current later (outward current).  Outward current continues if continue voltage clamp. In 1954D paper by Hodgkin / Huxley, circuit diagram of squid axon.
 
@@ -493,8 +495,73 @@ At same time that start with de-activation of sodium with h variable, also get a
 
 #### The Refratory period:
 
-You can't get a second action potential very early after first one -- have to wait enough time.  It's about 10 milliseconds for full action potential.  So maximally, 100 spikes per second.  This is an experimental finding.  H&H explained it with behavior of both $ h $ (inactivation) variable and the pottasium condactance.  Both h and K conductance are slow.
+You can't get a second action potential very early after first one -- have to wait enough time.  It's about 10 milliseconds for full action potential.  So maximally, 100 spikes per second.  This is an experimental finding.  H&H explained it with behavior of both $ h $ (inactivation) variable and the potasium conductance.  Both h and K conductance are slow.
 
 Can see spikes in any nerve cell, e.g. squid (as we've discussed), or cortical pyramidal cell.  
 
-In living cell, this is a result of cell being de-polarized enough by voltage received from synapses of up 10,000 dendrites (if not too many inhibitory cells)./
+In living cell, this is a result of cell being de-polarized enough by voltage received from synapses of up 10,000 dendrites (if not too many inhibitory cells).
+
+Note: This one was the toughest quiz so far and the only one yet that I've had to re-do.
+
+## Week Five - Neurons as Plastic/Dynamic Devices
+
+### Outline and Introduction
+
+1. Fast examples
+2. Purpose of learning ("action perception loop")
+3. Functional plasticity (learning w/o anatomical changes)
+4. Structural plasticity (where anatomy does change)
+5. Discussion on memory:  Embedding memories.  Copy memories?  Is it reliable?
+
+New thing 2013 Nature Karl Deisseroth et al published, "The Clarity Method".  Idea to develop methods to make whole brain transparent.  c.f. [Bringing Clarity to Brain Research](https://www.youtube.com/watch?v=LJ4PA1Gkhkg) video.  Remove coating of brain and stain different cells different colors, make it transparent and "fly around" in it.
+
+Aristotle quote on memory -- not groundbreaking. :)
+
+What changes in brain when you learn.
+
+Some ambiguous or not clear images shown -- teach you how to interpret them.
+
+Amir Amedi - Hebrew University -- Sensory substitution for the blind.  Can we use sound?  
+
+Learning [looks like this slide is on Machine Learning] enables us t:
+1) Generate useful predictions.
+2) Categorize the world ("faces", "cars", etc.)
+3) Create consensus among us for successful interaction.
+
+Movement essential for perceptual learning ("action-perception" loop) - active cat vs. passive cat.  (Held & Hein experiment).
+
+### Mechanisms Subserving Learning and Memory
+
+The brain reconstructs reality from minute/very partial information (e.g. cochlear implants).  In this case, get strange noises in your ear, but you can interpret it.  Brain has to reconstruct it.  
+
+Also true of vision, for example.
+
+Now, brain mechanisms supporting functional and structural plasticity.  How does what we've learned feed into this.
+
+We start again with Santiago Ramon Y Cajal.  Believed that nerve cells do not multiply [not correct], so he believed that learning resulted in more dendritic processes and axonal "colllaterals" -- so important point is more ***connections***.  Thought cerebral cortex like "a garden filled with trees, the pyramidial cells, ... multiply their branches ..."  
+
+Hippocampus very very important for learning and memory.  Looks like a sea-horse [sort of], hence, hippocampus.  But not only this -- also study the cortex.
+
+#### Possible neuronal mechanisms underlying learning & memory:
+
+1. New nerve cells grow - new functional neural networks relate to new items (structural plasticity).  Cajal didn't know aobut this.
+1. New synaptic connections (structural plasticity).  Ramon Y Cajal believed this.
+1. Strength of existing (synaptic) connections change, becoming stronger or weaker -- functional plasticity.  (Donald Hebb)
+
+### Functional Plasticity
+
+The Hebb Hypothesis:  (Donald Hebb 1949 -- likely [here](https://www.amazon.com/Organization-Behavior-Donald-Hebb/dp/0471367273/ref=sr_1_4?crid=3MBOLLMQKJ83F&keywords=Donald+Hebb&qid=1698781531&sprefix=donald+hebb%2Caps%2C86&sr=8-4))
+	*"When an axon of cell A is near enough to excite cell B or repeatedly or consistently takes part in firing it, some growth or metabolic change takes place in one or both cells such that A’s efficiency, as one of the cells firing B, is increased"*
+
+aka "Fire together/wire together"
+
+Subsequent investigation has shown that Hebb's rule is indeed implemented at some (hippocampal and cortical) synapses.  So synapse is highly plastic device.  So after learning, for example, for same spike (axonal) get stronger EPSP (Excitatory post-synaptic potential) in dendrite of cell B -- more depolarization.  E.g. insertion of additional receptors to post-synaptic membrane.  More ion-channels post-synaptically.  Could also do pre-synaptically, same spike could release more transmitters.
+
+Now we can add electrodes to both cells and try to figure out mechanism.  Doing this led mainly in 1990s to ***Spike Timing-Dependent Synaptic Plasticity" (STDP).  If generate with electode pre-synaptic (A cell) spike and post-synaptic (B-cell) spike, enough times, then you get a larger EPSP as in last paragraph.  Depends on timing between pre-synaptic and post-synaptic spike.  We call result, Long-Term Potentiation (LTP) -- for hours, days, lifetime.
+
+If reverse order of timing (B then A) then you can make the connection weaker.  Called LTD -- Long Term Depression.  See this in Slide based on Dan and Poo work in rat visual cortex, 2006, curve trending downward.  Trends upward if A then B.  Also shows smooth curve based on time (timing dependent).  For times > +/- 40ms, no effect.  Incidentally, this doesn't explain the Pavlov case since bell/food could be seconds away.
+
+We can write the equation for LTP/LTD.  Really blurry slide.
+
+
+
