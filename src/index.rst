@@ -15,4 +15,4 @@ This is the personal web site of the human known as John Lockwood, an identity b
 
 This site is an attempt to bring order to the chaos of too many GitHub repositories about too many things, by glomming it all into a single site about all my interests.  Of course such a scheme is explicitly atopical and lends itself to being systematically ignored by those looking for a site about programming (an interest of mine), or cognitive science, or human language learning, or Buddhism, or recovery from substance misuse.
 
-All of these and whatever the heck else doesn't embarrass me enough to scare me out of publishing it will live here.  I'll attempt to organize it to make it at least amusing to me, and possibly of some passing interest to others.
+All of these and whatever else doesn't embarrass me enough to scare me out of publishing it will live here.  I'll attempt to organize it to make it at least amusing to me, and possibly of some passing interest to others.
