@@ -523,7 +523,7 @@ Some ambiguous or not clear images shown -- teach you how to interpret them.
 
 Amir Amedi - Hebrew University -- Sensory substitution for the blind.  Can we use sound?  
 
-Learning [looks like this slide is on Machine Learning] enables us t:
+Learning [looks like this slide is on Machine Learning] enables us to:
 1) Generate useful predictions.
 2) Categorize the world ("faces", "cars", etc.)
 3) Create consensus among us for successful interaction.
@@ -557,11 +557,53 @@ aka "Fire together/wire together"
 
 Subsequent investigation has shown that Hebb's rule is indeed implemented at some (hippocampal and cortical) synapses.  So synapse is highly plastic device.  So after learning, for example, for same spike (axonal) get stronger EPSP (Excitatory post-synaptic potential) in dendrite of cell B -- more depolarization.  E.g. insertion of additional receptors to post-synaptic membrane.  More ion-channels post-synaptically.  Could also do pre-synaptically, same spike could release more transmitters.
 
-Now we can add electrodes to both cells and try to figure out mechanism.  Doing this led mainly in 1990s to ***Spike Timing-Dependent Synaptic Plasticity" (STDP).  If generate with electode pre-synaptic (A cell) spike and post-synaptic (B-cell) spike, enough times, then you get a larger EPSP as in last paragraph.  Depends on timing between pre-synaptic and post-synaptic spike.  We call result, Long-Term Potentiation (LTP) -- for hours, days, lifetime.
+Now we can add electrodes to both cells and try to figure out mechanism.  Doing this led mainly in 1990s to ***Spike Timing-Dependent Synaptic Plasticity*** (STDP).  If generate with electode pre-synaptic (A cell) spike and post-synaptic (B-cell) spike, enough times, then you get a larger EPSP as in last paragraph.  Depends on timing between pre-synaptic and post-synaptic spike.  We call result, Long-Term Potentiation (LTP) -- for hours, days, lifetime.
 
 If reverse order of timing (B then A) then you can make the connection weaker.  Called LTD -- Long Term Depression.  See this in Slide based on Dan and Poo work in rat visual cortex, 2006, curve trending downward.  Trends upward if A then B.  Also shows smooth curve based on time (timing dependent).  For times > +/- 40ms, no effect.  Incidentally, this doesn't explain the Pavlov case since bell/food could be seconds away.
 
 We can write the equation for LTP/LTD.  Really blurry slide.
 
+### Structural Plasticity
 
 
+"Morphological/anatomical changes that are correlated with learning"
+
+Here talking about dendritic spines, it seems.
+
+1967 - Globus & Scheibel [one of many experiments].  If cover eyes (visual deprivation) of an animal (cat? rabbit?), you see changes in the density of the spines.  
+
+In response to learning, see increase in number of stable new "spines".
+
+Until recently, all of this was learned on dead brains, before and after learning or deprivation.  Now we have the 2-photon microscope to view spines in living brain tissues.  Can see changes in real-time in living brain in response to learning, see changes in dendritic spines. 
+
+"Spines appear and disappear frequently in the adult cortex."  Some are stable, but others appear and disappear.  So morphological changes and new synaptic connections all the time -- but does it relate to plasticity?  Yes!
+
+Also strength of the synapses increases.  As it becomes stronger, it persists longer.  So...
+
+1. New dendritic spines are born constantly.
+1. More during learning tasks/enriched environment.
+1. New spines associated with new synapses -- i.e. new functional networks.
+
+### Neurogenesis and Learning
+
+Are there new-born cells (neurogenesis) in the adult Brain?
+
+Yes, in song-birds, in adult males, when they sing new song.  Controversial until recently in mammals.  Pasko Ravic thought only new cells in prenatal and early postnatal.  But in 1997, Elizabeth Gould at Princeton showed neurogenesis in tree shrews, and in 1997 in marmoset monkeys (primates :)).  At least two regions where this happens: olfactory system and hippocampus.
+
+In mouse, more challenging task (learn to wait to respond to a tone), the more newborn cells you develop.  These are born from stem cells in hippocampus, some of them are integrated in network.  Questions are what makes them stable or not.
+
+Neurogenesis provides hope for Alzheimer's and Parkinsons, as well as rehab from stroke / brain injury.
+
+"If you don't use it, you lose it." Challenge is good.
+
+Comments and anecdotes about memory:
+
+* Hippocampus of London Taxi Drivers
+* Whole brain structural differences between musicians and non-musicians (increasing volume -- could be from spines, or cells)
+
+Future - controversial issues
+
+* Machine learning
+* How trustworthy are memories?
+* Can we read out memories?  (Generally, no, because you code things differently from other people)
+* Can we stimulate brain to embed new memories. Difficult to know how to manipulate network correctly.

@@ -5,7 +5,7 @@
    "id": "23c2696e-067d-4500-98ed-05d10a6ea1de",
    "metadata": {},
    "source": [
-    "# I Test, Therefore, I Am"
+    "Math"
    ]
   },
   {
