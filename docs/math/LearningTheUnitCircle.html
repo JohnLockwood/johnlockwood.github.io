@@ -23,7 +23,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Limits" href="Limits.html" /> 
+    <link rel="prev" title="Interesting Linear Algebra Stuff" href="LinearAlgebraBeginnings.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -53,11 +53,14 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Math Journal</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="SyllabusAndJournal.html">Johnsin University</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Limits.html">Limits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Derivatives.html">Derivatives Review and Practice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LinearAlgebraBeginnings.html">Interesting Linear Algebra Stuff</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">How I Learned the Unit Circle</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#Show-that-of-$:nbsphinx-math:sin{45^text{o}}-=-\frac{\sqrt{2}}{2}-$">Show that of $:nbsphinx-math:<cite>sin{45^text{o}}</cite> = <span class="math">\frac{\sqrt{2}}{2}</span> $</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#Show-that-of-$:nbsphinx-math:sin{60^text{o}}-=-\frac{\sqrt{3}}{2}-$">Show that of $:nbsphinx-math:<cite>sin{60^text{o}}</cite> = <span class="math">\frac{\sqrt{3}}{2}</span> $</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#Show-that-of-$:nbsphinx-math:sin{30^text{o}}-=-\frac{\sqrt{1}}{2}-=-\frac{1}{2}-$">Show that of $:nbsphinx-math:<cite>sin{30^text{o}}</cite> = <span class="math">\frac{\sqrt{1}}{2}</span> = <span class="math">\frac{1}{2}</span> $</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#Historical-note:">Historical note:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#Some-Background">Some Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#The-Method">The Method</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#Jogging-My-Memory-With-a-Neat-Desmos-Unit-Circle">Jogging My Memory With a Neat Desmos Unit Circle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#Recalling-Some-Properties-Using-Matplotlib">Recalling Some Properties Using Matplotlib</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#Historical-Note">Historical Note</a></li>
 </ul>
 </li>
 </ul>
@@ -91,8 +94,13 @@
              
   <section id="How-I-Learned-the-Unit-Circle">
 <h1>How I Learned the Unit Circle<a class="headerlink" href="#How-I-Learned-the-Unit-Circle" title="Link to this heading"></a></h1>
+<section id="Some-Background">
+<h2>Some Background<a class="headerlink" href="#Some-Background" title="Link to this heading"></a></h2>
 <p>Sooner or later in your math career, someone will tell you that you need to memorize the Unit Circle – a circle with the origin at 0,0 and a radius of 1 – along with many measurements and coordinates for angles you’ll find along the circumference. The first person to tell me I needed to memorize this was Miss Chagnon, back in Algebra 2 and Trigonometry, which I took as a junior in high school. Some of the other experiences I had in that class were awful enough that I swore I’d never take
 another math class for the rest of my life – a vow I was to break later in my twenties (with pre-Calculus) and now again in my sixties, as I’m preparing to finally take Calculus for a grade (having studied it a fair amount informally online).</p>
+</section>
+<section id="The-Method">
+<h2>The Method<a class="headerlink" href="#The-Method" title="Link to this heading"></a></h2>
 <p>Like anything else in math, I found the secret to finally making headway on “things thou shalt learn” is a combination of two things, a teacher who can teach you and a way to practice. What I found that fit the bill perfectly were these two things:</p>
 <ul class="simple">
 <li><p>For a teacher to teach it to me, the best resource I found for remembering the unit circle was Christa King Math’s aptly titled <a class="reference external" href="https://www.youtube.com/watch?v=RS6qmQXP8fc&amp;t=672s">How to Remember the Unit Circle</a>, which demonstrates a memory-friendly way to fill in a unit circle with these values:</p>
@@ -111,6 +119,9 @@ degrees.</p>
 <p>One tip I’ll point out that I needed to keep in mind when doing the worksheet is that on the unit circle, the coordinate values (x,y) along the circumference of the circle correspond to (cos, sin) values for the angle in question – so it’s the <em>opposite</em> of the way that would seem intuitive.</p>
 <p>Finally, if you’re allowed to use a calculator as you likely will on your Calculus exam, for any positive or negative values for the degree in radians that is some whole-number multiple of $ <span class="math">\frac{\pi}{6}</span> $, $ <span class="math">\frac{\pi}{4}</span> $, there are a limited number of calculator results to remember. 0, 1, and 1/2 are of course pretty obvious, and 0.707106781187 works out to approximately $ <span class="math">\frac{\sqrt{2}}{2}</span> $, just as 0.8660254037844386 works out to
 approximately $ <span class="math">\frac{\sqrt{3}}{2}</span> $, as we demonstrate below. I wouldn’t try to memorize too much decimal precision for these, of course.</p>
+</section>
+<section id="Jogging-My-Memory-With-a-Neat-Desmos-Unit-Circle">
+<h2>Jogging My Memory With a Neat Desmos Unit Circle<a class="headerlink" href="#Jogging-My-Memory-With-a-Neat-Desmos-Unit-Circle" title="Link to this heading"></a></h2>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[28]:
 </pre></div>
@@ -134,8 +145,10 @@ approximately $ <span class="math">\frac{\sqrt{3}}{2}</span> $, as we demonstrat
 
 ></iframe></div>
 </div>
-<section id="Show-that-of-$:nbsphinx-math:sin{45^text{o}}-=-\frac{\sqrt{2}}{2}-$">
-<h2>Show that of $:nbsphinx-math:<cite>sin{45^text{o}}</cite> = <span class="math">\frac{\sqrt{2}}{2}</span> $<a class="headerlink" href="#Show-that-of-$:nbsphinx-math:sin{45^text{o}}-=-\frac{\sqrt{2}}{2}-$" title="Link to this heading"></a></h2>
+</section>
+<section id="Recalling-Some-Properties-Using-Matplotlib">
+<h2>Recalling Some Properties Using Matplotlib<a class="headerlink" href="#Recalling-Some-Properties-Using-Matplotlib" title="Link to this heading"></a></h2>
+<p>Show that of $:nbsphinx-math:<cite>sin{45^text{o}}</cite> = <span class="math">\frac{\sqrt{2}}{2}</span> $</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[41]:
 </pre></div>
@@ -155,9 +168,7 @@ approximately $ <span class="math">\frac{\sqrt{3}}{2}</span> $, as we demonstrat
 0.7071067811865476
 </pre></div></div>
 </div>
-</section>
-<section id="Show-that-of-$:nbsphinx-math:sin{60^text{o}}-=-\frac{\sqrt{3}}{2}-$">
-<h2>Show that of $:nbsphinx-math:<cite>sin{60^text{o}}</cite> = <span class="math">\frac{\sqrt{3}}{2}</span> $<a class="headerlink" href="#Show-that-of-$:nbsphinx-math:sin{60^text{o}}-=-\frac{\sqrt{3}}{2}-$" title="Link to this heading"></a></h2>
+<p>Show that of $:nbsphinx-math:<cite>sin{60^text{o}}</cite> = <span class="math">\frac{\sqrt{3}}{2}</span> $</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[40]:
 </pre></div>
@@ -176,9 +187,7 @@ approximately $ <span class="math">\frac{\sqrt{3}}{2}</span> $, as we demonstrat
 0.8660254037844386
 </pre></div></div>
 </div>
-</section>
-<section id="Show-that-of-$:nbsphinx-math:sin{30^text{o}}-=-\frac{\sqrt{1}}{2}-=-\frac{1}{2}-$">
-<h2>Show that of $:nbsphinx-math:<cite>sin{30^text{o}}</cite> = <span class="math">\frac{\sqrt{1}}{2}</span> = <span class="math">\frac{1}{2}</span> $<a class="headerlink" href="#Show-that-of-$:nbsphinx-math:sin{30^text{o}}-=-\frac{\sqrt{1}}{2}-=-\frac{1}{2}-$" title="Link to this heading"></a></h2>
+<p>Show that of $:nbsphinx-math:<cite>sin{30^text{o}}</cite> = <span class="math">\frac{\sqrt{1}}{2}</span> = <span class="math">\frac{1}{2}</span> $</p>
 <div class="nbinput docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[48]:
 </pre></div>
@@ -196,8 +205,8 @@ approximately $ <span class="math">\frac{\sqrt{3}}{2}</span> $, as we demonstrat
 </pre></div></div>
 </div>
 </section>
-<section id="Historical-note:">
-<h2>Historical note:<a class="headerlink" href="#Historical-note:" title="Link to this heading"></a></h2>
+<section id="Historical-Note">
+<h2>Historical Note<a class="headerlink" href="#Historical-Note" title="Link to this heading"></a></h2>
 <p>Some time ago I wrote a CodeSolid article on <a class="reference external" href="https://codesolid.com/matplotlib-coordinates-toward-a-python-graphing-calculator/">graphing math functions in Matplotlib</a> – which mainly focused on getting the aspect ratio looking more like a piece of standard graph paper, and less like what your computer wants to do by default (hint: 1024x768 is not 1000x1000, or what have you). Since then I tried spending some time in that rabbit hole, and I won’t litter this page with it, but if you’re
 interested in the litter here’s a commit that has the <a class="reference external" href="https://github.com/JohnLockwood/johnlockwood.github.io/blob/954dcfdca20ddab5e2da518c39cf7bd3862d26bd/src/math/UnitCircleSymPy.ipynb">draft page</a>.</p>
 <p>The upshot of the CodeSolid article really is apt: use Desmos and other tools if your goal is learning math. Use Matplotlib if your goal is learning Matplotlib.</p>
@@ -216,7 +225,7 @@ interested in the litter here’s a commit that has the <a class="reference exte
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="Limits.html" class="btn btn-neutral float-left" title="Limits" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="LinearAlgebraBeginnings.html" class="btn btn-neutral float-left" title="Interesting Linear Algebra Stuff" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
