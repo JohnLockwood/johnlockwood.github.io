@@ -607,3 +607,196 @@ Future - controversial issues
 * How trustworthy are memories?
 * Can we read out memories?  (Generally, no, because you code things differently from other people)
 * Can we stimulate brain to embed new memories. Difficult to know how to manipulate network correctly.
+
+## Week Six: Cable Theory and Dendritic Computations
+
+### The Brain Computes
+
+Focus of this week is on computation, especially computational capbabilities of dendrites.
+
+1. "The brain computes (thus 'computational neuroscience')."
+2. Computation at level of single neurons
+3. Focus on very important, fundamental "cable theory for Dendrites" (William Rall)
+4. Dendritic computation - the neurons as a computing device.
+5. Recent experimental breakthroughs that prove the these ideas of neurons as computing devices, e.g. the retina.
+
+Start with this "The Brain Computes" -- how do neuronal ingredients (neurons, synapses, electrical and chemical signals, their networks etc.) "represent and process information (compute)"?
+
+1. What are the problems that need to be solved by the brain?
+2. What are the algorithms (techniques) to solve the problem?
+3. How do [are] these algorithms implememented by the various brain regions.
+
+Each region has a computational role - slide showing this.  E.g. movement (crossing street, reaching for cup), compute distance of objects like cars, movement, speed, direction.  Movement and vision together.  In visual system other things to compute.  E.g. figure/ground, recognizing objects in world.  Brain has a particular algorithm to compute faces, e.g. classical example with just faces and pixels showing where your eyes focus.  Shows an algorithm for finding the face, not a full scan of whole image.  Another one in profile.
+
+Other figure ground -- four pac-man figures oriented the right way make a square.
+
+Also motion -- visual system sensitive to motion.
+
+### Computation at the level of Single Neuron
+
+Computation is "main mission of brain".  Single cell already shows aspects of computation -- most direct example, from Nobel Laureates Hubel and Wiesel, 1981 Nobel. Recording spiking activity of cat visual cortex during visual motion.  Recording electrode in living, seeing cat.  So particular cell was firing in a paticular occasion -- whenever there was a line crossing the screen at a particular angle.  Recorded from V1, part of the visual area (primary visual cortext), from a single cell.  If line crossing screen at a different angle, does not fire.  So cell is orientation/direction specific cell.  A given cell will fire more strongly or not fire at all for these:  _ | / \ etc.  One he showed fired strongly for vertical, a bit for just off of vertical, other orientation not at all.  So cell is tuned for particular range of angles, strongest at center of range.
+
+V1 is early in visual system, we decompose the world into lines.
+
+### Fundamentals of Dendritic Cable Theory
+
+Before this, early theoretical ideas about neuron as computational device -- influential early paper was McCulloch and Pitts "point neuron".  "A logical calculus of the ideas immanent in nervous activity" (1943) -- was influential in computer science as well.  Ideas inspired by:
+
+- "all or none" nature of the spike
+- Two types of synapses, Excitatory (E) and Inhibitory (I)
+
+Abstract (point) neuron, has all or none property -- it fires or doesn't.  [He's basically going to end up with boolean possibilities I bet. -- YEP! :)] Assumes single cell I can veto, and three excitatory cells, can write:
+
+"Output ("1") is generated if:  (e1 OR e2 OR e3) AND NOT i.  Again this is a logical calculus.  So now neuron is logical device, with thresholds.  Showed that with these simple properties, can build a universal computing machine, using connected networks of such neurons.  By the way a lot of the mathematics for computers was influenced by neurons.  So "basically the first example of looking at neurons as computing devices."
+
+But neurons (dendrites) and their syapses are not "points", but ***distributed electrical systems***  So what are the computational implications?  For this need a conceptual framework and rigorous theoretical approach.
+
+Goes back to the importance of mathematics -- Lord Kelvin  I think he misquotes him?
+
+"I am never content until I have constructed a mechanical model of what I am studying. If I succeed in making one, I understand; otherwise I do not."
+
+Professor has "mathematical" in there.
+
+Thompson did [like his math](https://mathshistory.st-andrews.ac.uk/Biographies/Thomson/quotations/), though, e.g.
+
+“When you can measure what you are speaking about, and express it in numbers, you know something about it, when you cannot express it in numbers, your knowledge is of a meager and unsatisfactory kind; it may be the beginning of knowledge, but you have scarely, in your thoughts advanced to the stage of science.”
+
+Why Model (in Details?)
+
+Three reasons for mathematical models:
+
+1. Correct *interpretation* of experimental results (provides experimental predictions!).  Go from details to predictions.
+1. Gain insights into ***key*** biophysical parameters (enables compact description of the physiologicaql behavior studied capturing the essence, e.g. HH model for the AP).  So allows you to zero in on key parameters, important features.
+1. Enables you to jump conceptually from biophysics to computation, i.e. functional.  E.g. M&P neuron -- and next thing we'll talk about, Rall's ideas for dendritic computation (next slide).
+
+But first a bit about our friend Ramon y Cajal -- he didn't like theoreticians.  Bunch of anti-theorist quotes from "Advice for a young scientist"
+
+### Rall Cable Theory for Dendrites
+
+Wilfrid Rall was  "my [Professor Idan Segev's] own great mentor".
+
+Goal here is to understand the impact of (remote) dendritic synapses (input) on the soma/axon (output) region.  Rall [Wikipedia:  "one of the founders of computational neuroscience"]. Wrote paper in 1964 showing contrast between M&P point neuron (AKA schematic neuron) vs real neuron.  The real neuron distributed, much more complex.  Thought M&P was too oversimplified.
+
+First intuition came about in 1959 -- if inject current into cell (soma) or current comes from synapses, can see, most of current flows through out to dendrites and not into the soma membrane, so can't think of soma as isopotential because of all the dendrites popping out.  
+
+Dendrites are not isopotential devices, but a distributed electrical system.  Therefore:
+
+* Voltage attenuates from synapse to soma
+* It takes time delay for the PSP to reach soma
+* Somatic EPSP/IPSP is expected to change with synaptic location
+
+So Rall showed it schematically as dendritic tree as sets of cylinders.  A distributed system, again.  Asked, what does it mean for electrical behavior.
+
+Now look at cable theory:
+
+Suppose you have cylinder, has a membrane, and inside dendrite, and inside there are chemicals etc. that act as a resistance (hence, more or less, acts like a cable). Suppose you activate it at some location of the cylinder.  Ion channel flows into (for example) across membrane.  Some flows left and right in cylinder, and a bit leaks out of the cylinder (dendrite) too.  So membrane voltage attenuates as you go away from synapse, maximum voltage is local.  So question is how to describe the attenuation of of voltage across a branching tree structure mathematically.  
+
+In brief (simplifying the math somewhat).  Idea is basically you have an axial current that is proportional to the derivative of voltage with distance.  ( $ \frac{\delta V}{\delta x} $). Change in actual current actually second derivative.
+
+Much longer passive cable equation given.  Change in current is basically sum of cable current and membrane current.  Passive current because r and c (resistance and capacitance) are static (passive).  So current changes with both distance and time.
+
+Linear partial differential equations that can be solved analytically, if you have initial conditions and boundary conditions -- dimensions of cylinder and voltage.  Rall solved it for various initial conditions.  Can assume steady state (no change in time), voltage still attenuates with distance, shape of attenuation depends on properties of cable (infinite vs a sealed end cable so no current can escape, etc.).  For short branch, almost no attenuation.
+
+Most fundamental and important solution of cable equation was for branch dendritic tree model -- in this case steep (assymetrical) voltage attenuation from dendritic synapse to soma.  Steep attenuation of voltage to first branch site, more shallow as we go closer to "trunk" of three.  At boundary of cable, have a leaky end, hence steep attenuation.  Eventually some voltage reaches soma.  So this is very non-isopotential system, high voltage near synapse, low at soma.  Maybe 30 or 40 millivolts at synapse, but only see one millivolt at the soma.
+
+Another thing that falls out is get less attenuation at soma if inject current directly there.
+
+Now think about dendrites as "functional subunits" or "synaptic territory".  If synapse near cell body, soma and cell body about the same.  Each synapse has a neighborhood, or sub-region; distal part less affected.  We can use notion of regional sub-units as doing computation.
+
+#### Transient synapses
+
+$$ \frac{\delta^2 V}{\delta X^2} = \frac{\delta V}{\delta T} + V(X,T) $$
+
+Relationship not only to X (distance), but also T (time) -- so with time, voltage dissipates distally as well.  If wait enough time, cell becomes more isopotential, resting synapse.
+
+Distal synapses have a broader curve (not so much local voltage initially). "Distal synapses are broader and delayed" was a predictive result of cable theory, compared to proximal synapses.  If normalize peaks just to compare shape, distal synapse is delayed and broader.  Can plot time to peak, then plot half-width.  So can use shape curve of EPSP, can predict how far away the synapse is that caused the EPSP.  This a big success of theory -- later experimentally verified.
+
+Now take Rall mathematics and look at the cell as a computational element...
+
+### Dendritic Computation
+
+A few theoretical ideas that came out from Rall's (better :) Cable theory.
+
+1. Dendrites enable neurons to act as multiple functional subunits.  So dendrites may be computing locally first, then globally at the soma and axon.
+2. Dendrites because distributed can classify inputs.
+3. Important - neurons with dendrites can compute direction of motion (directionally selective)
+4. Dendrites improve sound localization (in auditory system)
+5. Dendrites can sharpen the tuning of cortical neurons
+
+First back to neurons as as multiple functional subunits.  Distributed multiple functional subunits ideas means (Koch and Poggio) can extend (write more precise but complex) version of the logical calculus of M&P.  If closer (proximal), inhibition can veto.  So inhibition / excitation.  All inibitory synapses "on the path" (proximally to soma) can veto you.   -- "on the path" conditions.
+
+Another idea (Bartlett Mel) is notion of functional sub-regions performing preliminary summation (non-linear operations), and then sum the local operatrions.  So clustering of synapses in sub-regions can affect output differently than if didn't have it.  B. Mel showed that this allows neuron to act as a classifier.  E.g. image of face gets projected to different regions of a cell.  So one cell may be sensitive to a given face.  So individual cell becomes a classifier.
+
+Most influential original idea is Rall, 1964, is that neuron can behave as directional selective computation device.  Moving from proximal to distal codes one direction, reverse codes reverse.  Temporal order switches.  EPSP at soma will have a different voltage profile.  More distal first will have a taller voltage curve because will sum up with proximal, but spike will happen later.  Smaller peak but broader if proximal first.  Could have a threshold between the two to make output depend on which direction.  Spike in one case and not the other. Say you have a directional selective cell in retina.  Can distribute photoreceptors along the cable.  With Rall's cable theory, then, built up directional cell (a computation).  Can't do this with a point neuron.
+
+Rall suggested that you have to be careful about the "granularity of the model" needed to explain the phenomenon.  So, for example, point neuron can't compute directional sensitivity on its own, as we saw above.  So Rall suggested going up only so far as you need to understand a particular computational phenomenon.  Rodin's detailed model of a kiss as example, vs. Brancusi's simplified kiss...![Simplified kiss](https://i.pinimg.com/736x/ae/b1/23/aeb1236f2bc5cbff3ae733cdc903bbfe--kiss-art-constantin-brancusi.jpg).  Overly detailed model more like a simulation.
+
+
+### Recent Breakthroughs
+
+"tour de force" as attempt to understand neurons as a computing device.  For example, direction of motion.  Two experimental breakthrough.
+
+Arthur Konnerth in Munich.  Nature paper 2010.  Using two-photon microscope.  Mouse watching lines move in one direction or other -- electrode recording of different direction.  Spikes in two directions -- one much stronger than other. If you zoom into input synapse.  Different synapses "like" different directions.  So we're in a "miraculous time" - not only record output of cell (summation of inputs), but also record from input synapse itself.  All orientations are presented to various synapses, but each synapse sensitive to particular orientation.  We don't know yet how it creates output corresponding to orientation.  Could be that cell counts the orientation of majority -- or another mechanism.
+
+Second result is direction sensitivity in retina ganglion cells.  How is it computed?
+
+Retina built up in layers (in order distal to proximal)
+
+* Receptor layer - neurons that receive the light.
+* Bipolar cells 
+* Amacrine cells
+* Then to ganglion cells (optic nerve)  \[Optic nerve "is composed of retinal ganglion cell axons and glial cells" - wikipedia]. SOME of Ganglion cells are directionally senstive -- spikes for certain directions of motion.  Tuned cells.  Before cortex [ before Hubel and Wiesel].
+
+HOW?
+
+One idea over the years was the "Reihard Detector" -- general idea is that in one direction there is more inhibition, than in other direction.  So assymetry of location of E & I connections into ganglion cells.  Depends on whether E or I happens first for a given direction.  If I comes in after E -- too late.  Just an idea, but how do you prove / disprove it?
+
+Answer:  Connectomix - Kevan Martin, Winfrid Denk, and others, cutting and reconstructing anatomy and electrophysiology at level of synapses.  Recently breakthroughs -- from Winfid Denk and his team, shows indeed, if look at DS Ganglion cell, and it's predecessor, the Amacrine (inhibitory) cell, can count the inhibitory synapses.  If have three cells for example:
+
+**Amacrine 1 -> DS <--Amacrine 2**
+
+If one have more synapses, can count the synapses. E.g., if more on 2, get more inhibition to the right, for example.  [amacrine cells are all or primarily inhibitory].  So this could be a verification of Reihard detector idea.
+
+#### Personal note
+
+Brain differs from other large physical systems in which elementary units are simple and uniform. "It is composed of neurons which are inherently complex, dynamic, and plastic units, which form connected networks that exploit the impact of the individual neuron.
+
+Analogy to indiv. humans and society.
+
+Need conceptual and theoretical tools for connecting low level computation and learning to global computational functions.  This the central role of new field of "computational neuroscience."
+
+Only tight integration between theory / modeling will provide missing breakthrough.
+
+
+## Week 7 Cortical Networks - Out of the Blue Project
+
+### Cortical networks - out of the blue project.
+
+1. Mega projects for the brain. Blue Brain part of several.
+1. The cortex and its "cortical column"
+1. A test-case for large-scale details modeling (the blue brain project)
+1. The Human Brain Project
+
+Some dramatic new ($ billions) projects for the brain
+
+* Allen Institute Seattle - Mouse/Human Brain Atlas - mouse/human brain atlas, and now gene expression of brain related genes.  Recent focus on visual system.
+* [Janelia farm](https://www.janelia.org/) - DC, USA - Work on connecting network level anatomy and pysiology to a specific behavior. Somewhat futuristic.  Very new.
+* EU Human brain project - Professor is involved.  Lausanne, Switzerland.  New platforms for research, integrates knowledge from different disciplines.
+* President Obama's "Brain Activity Map" initiative - "Brain Activity Map".  Creating revolutionary tools to measure/simulate of millions or even billions of neurons simultaneously.  Record many spikes in living brain.  Hope to see what happens in coding, decoding, etc.
+
+The "diseaseome" - the 560 known neurological diseases.
+
+Attempt to systematically link genes to certain diseases, and other correlations.  Part of big attempt worldwide -- also part of Human Brain Project.  All a result of misbehaving anatomy or behavior (e.g. spiking behavior) or both.  Hagai Bergman's work on Parkinsons -- showing different activity of brain region vs. Parkinson.
+
+### The Blue Brain Project
+
+Before the Human Brain Project.  Idea was:
+
+1) Build new platform for databasing the brain.  (I added, see [GitHub Repo](https://github.com/BlueBrain)).  This part not controversial.  Controversial part is simmulation.  Data enables visualization and reverse engineering via simulation.  Platforms for collecting and preserving data.  Platform at all levels, from genes to behavior.  
+
+Generate simulated spikes and so on, of neurons.  This controversial.  Whole field is called simulation-based researched, simulate in fine detail the system you study.  Question is -- is that reasonable, useful, etc.
+
+Like reverse engineering, rebuilding a simulated brain -- hoping you'll understand via simulation.  Henry Markram started BB project -- later head of human brain project.  IBM provided the "Blue-Gene" supercomputer (earlier used to sequence human genome) 10,000 processors, 0.05 Peta Flops / sec.  So blue comes from IBM.  [hints at a sexual connotation too.]  Data-basing the brain was assisted major new anatomical methods:
+* BrainBow.  (Design mouse genetically so that cells intrinsically will have color.)  Other anatomical tools too.  Now can see certain types of cells standing out.
+* Connectomics -- also controversial -- Labor intensive, EM slices.  Cells "reconstructed" in computer and colored.  Controversy is about -- OK, so now you have all this data what do you do with it?
+* Other technique related to BAM, in vivo optical recording of electrical activity of thousands of neurons -- use Ca-sensitive florescent dyes + 2-photon microscope.  Can now see individual cells of a living mouse, for example, and study it while it's doing specific tasks.
