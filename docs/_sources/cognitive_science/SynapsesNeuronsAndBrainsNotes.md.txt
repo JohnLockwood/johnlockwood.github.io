@@ -800,3 +800,128 @@ Like reverse engineering, rebuilding a simulated brain -- hoping you'll understa
 * BrainBow.  (Design mouse genetically so that cells intrinsically will have color.)  Other anatomical tools too.  Now can see certain types of cells standing out.
 * Connectomics -- also controversial -- Labor intensive, EM slices.  Cells "reconstructed" in computer and colored.  Controversy is about -- OK, so now you have all this data what do you do with it?
 * Other technique related to BAM, in vivo optical recording of electrical activity of thousands of neurons -- use Ca-sensitive florescent dyes + 2-photon microscope.  Can now see individual cells of a living mouse, for example, and study it while it's doing specific tasks.
+
+### The Cortical Column
+
+So we choose a circuit and reconstruct it so we can simulate it.  What should we choose?  The cortical column.  If look at mamalian neurocortex, and look at skull side and go two mm deep, see layers and layers of cells.  Ballpark, $1\space mm^2 \approx 30,000$  cells, 100 million connections (synapses).  Cortex has many cell types:  "Some of the cells are pyramidal cells, we discussed them. Some of the cells are spiny stellar cells. Some are inter-neurons. Some are inhibitory. Some are excitatory. Many, many cell types within, a circuit like this."  There are layers in the cortical columns -- layer means cell bodies of certain cells is denser there.  Or may be some layers less dense than others. (Slide showing layers approx 2 mm x .46 mm).  Slide of spiny stellate cells in cat v1 in layer 4, attempt to map out all the input synapses into cell (yellow coming from the thalamus, green are regional).  So statistical synaptic mapping of the local cell region.  (Kevan Martin et al).  
+
+Location of synapses, firing sequences, I vs. E, etc. all part of what we enter into our simulation.
+
+### The Cortical Column Network
+
+Now move from individual cells to networks of cells.  Slide of the mouse whisker and the barrel cortex.  This system well defined anatomically. Somato-sensory cortex, different columns for each indiv. whisker.  Each column on order of 10,000-20,000 cells.  Diagram showing cortex column surfaces seems to be aligned corresponding to layout of whiskers, notion of column an active area of research -- clear mapping between whisker and a column.  E.g. Bert Sakmann, noble laureat.  Slide showing excitatory cell types, e.g. pyramidal layer 5 cells, spiny stellate cells in layer 4, etc.  Typically six layers, other showing input from thalamus.  Can also stain cells, exitatory red, inhibitory green, etc. -- map types into a column.
+
+Some other functional properties of columns:
+
+* Orientation of moving lines.  Mentioned this in Hubel and Wiesel - Clay Reed discovered that in the cat V1, we have a whole functional column that is sensitive to a particular direction.  Columns tend to go in order, with orientaion changing a bit between each one.  If look at different axis from surface, other axis is oriented according to left eye / right eye.  This is called the "ice cube model" of visual cortex.
+
+ ![ice cube model](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nwvPin2ZA_kpGP-3VZSURgHaD5%26pid%3DApi&f=1&ipt=24c14d6f5425c369bad642b2b0c0d9c22cb625c2a41f8b58817e698fa2c2278a&ipo=images)
+
+The functional unit (the column) is plastic, not just indiv. cells.  For example, can show cat limited visual angles in world at early age, and only those respective columns formed in V1.
+
+### Blue Brain Project
+
+Modeling the cortical column
+
+We need to model all that stuff we mentioned before about connectivity, cell types, firing properies, etc. -- but we don't understand how these ingredients generate a response.  For that we need to model it.
+
+### Blue Brain Simulations
+
+We have not only anatomy of many layers, but each cell has its own properties.  E.g., different firing patterns.  So reconstructing cells anatomically, as well as by firing pattern -- need to find mathematical rules to write equation to represent firing properties.  So we use H&H equations, but make them more sophisticated to capture whole firing properties not just single spike.  We also use passive cable equation, also now active cable equation.  Eventually we can use "Multiple Objective Optimization" (MOO) to provide true to life model of all cell types.  [Professor created some of these mathematical methods.].  Also modeling synapses (PSPs) as R-C circuits and as plastic devices, use equation describing site-timing dependent plasticity.
+
+Challenge 2:  Math. modeling connections between neurons - Done
+
+Challenge 3: Modeling plastic learning processes in networks (synaptic plasticity) - ongoing
+
+Challenge 4: Connecting the cortical networks (a-la experiments) - ongoing
+
+Take all this and put it in super-computer with 20,000 processors million-squared operations per second.  100,000 real cells (10 columns) -- in detail.  Can simulate single cell in detail, cells and fibers, or whole network.  Can see synapses, E (blue) I (red).  Can look at activity of whole column.
+
+Interlude:  cool video https://www.youtube.com/watch?v=M-D8NTw7PgI
+
+### From Mouse to Human
+
+Mouse column from 10,000 cells; can connect 10 columns.  But what about humans?  Amsterdam group receives from MD big chunk of human cortex removed from brain of epileptic patient (rare material).  Can do anatomical work, see pyramidal cell, can see layers.  Can also do physiology -- human cortical column.  Limitation -- for complete human brain simulation, need an exaflop computer ($10^{18}$) - 2023 (now) estimated.  For complete mouse brain, could do in 2014 (supposedly) 3 years from recording, Petaflop ($10^{15}$), enough for mouse brain.
+
+### The Human Brain Project
+
+Very different from Blue Brain Project.  BBP only concerned with simulationo, HBP works on simulation, computation, analytics, screening, informatics, the neuroscope, neurorobotics, [neuromorphic chips](https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html) -- a platform for developing new technologies.  Zero in on ONE aspect of this:  society / education.  We'll get amazing new info that will impact on ethics, industry, etc., scientists responsible for sharing with public.
+
+This is a Global project -- led by Europe, but 256 labs, 114 institutions, 24 countries.  Goals are, new model of ICT -- Information and Communications Technology -- based brain research to obtain:
+
+* a new understanding of the brain (neuroscience)
+* new treatments for brain disease (medicine)
+* new brain-like computing technologies (future computings)
+
+So it's basically platform project. A platform inspired by what we understand about the brain.  
+
+We can do millions of computations very cheaply with our brains, 20 watts.  Supercomputers we need take so much energy that we can't increase it by a factor of a million.
+
+Six new ICT Platforms:
+
+1. Neuroinformatics
+1. Brain Simulation
+1. Medical Informatics
+1. HPC
+1. Neuromorphic Computing
+1. Neurorobotics
+
+New technologies within each of these.
+
+Simulation across multiple levels (genetic, chemical, network, etc.).  Building the thing interactively, don't need all the details.  [Note:  s
+lides for this lecture ]
+
+Medical Informatics
+
+Future Computing
+
+Next week guest speaker Professor Israel Nelken -- 
+
+## Perception, action, cognition, emotion
+
+### Sensory Transduction
+
+Emphasis here on auditory system, "The Story of a Sound" -- auditory system, which is Israel Nelken's research subject.
+
+Sensation
+Perception
+Actions
+Emotions
+
+What are neuronal processsing mechanisms for.  Sensation is "the transformation of external events into neural activity".  Perception has to do with processing of sensory information.  We believe end result of perception is a useful representation in terms of the external objects that produced the sensation.
+
+David Marr - "Seeing is knowing what is where by looking"
+
+	2D image on retina
+	recover latent variables (causes for things to fall on retina)
+
+Actions - Organisms use representations of world to exploit opportunities and avoid threats.
+
+Now we see this as a perception -- action loop.  Creating music is an example of this.
+
+Emotions -- discuss at end.  
+
+The Story of a Sound
+
+* Sensory transduction 
+* Auditory localization
+* How sensory information guides motion -- turn toward the sound
+* Higher order processing of sensory information -- the case of surprise
+* The case of music-induced chills.
+
+#### Sensory Transduction
+
+Hair cells in ear.  Mechano-sensitive ion channels, to current in neurons, causes depolariztion, via transmitter release between hair cells to auditory nerve fiber -- which goes to brain.  Hairs sit on top of the basilar membrane, in the organ of corti.  When basilar membrane goes up or down, relative motion of hairs relative to roof (copola).  Basilar membrane vibrates with because of sound because sits in long tube (the cochlea -- a snail-like section)  Has cross sections with more tubes, with basilar membranes connected to cochlear nerves.
+
+Ear canal (external) ends in tympanic membrane (aka eardrum), vibration transferred through 3 tiniest bones in human body to liquid in cochlea, causes pressure waves which causes vibration of basilar membrane, so organ of corti moves, hairs move, depolarization of nerve cells, "and so on" :).
+
+Important feature of cochlea, so 19th century Hermann Helmholtz realized that different frequencies are picked up at different places along length.  Low frequencies (100 hz) late, high frequencies early on 10,000 hz.  Medium at about 1,000 hz.k.  Sounds travel in a travelling wave in the cochlea (basilar membranes).  Amplitude of wave is much higher in living tissue, dead cochlea has a flatter wave.  Turned out that the main source of energy to "cochlear amplifier", which are peizoelectric, they supply energy to the cochlear amplifier.
+
+Summarizing, 
+
+Auditory Transduction
+
+* is done by specialized cells
+* sitting in a specialized organ
+* coupled to the physical stimulus
+
