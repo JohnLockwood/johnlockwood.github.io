@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Math &mdash; JohnLockwood.com 0.1 documentation</title>
+  <title>Double and Half Angle Formulas (Summary) &mdash; JohnLockwood.com 0.1 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -17,11 +17,11 @@
         <script src="../_static/doctools.js?v=888ff710"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+        <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Math Journal" href="Journal.html" />
-    <link rel="prev" title="Judgements in Sobriety" href="../recovery/JudgementsInSobriety.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,25 +44,11 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../cognitive_science/index.html">Cognitive Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../socialmedia/index.html">Social Media</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recovery/index.html">Recovery</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Math</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="Journal.html">Math Journal</a></li>
-<li class="toctree-l2"><a class="reference internal" href="SyllabusAndJournal.html">Johnsin University</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Limits.html">Limits</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Derivatives.html">Derivatives Review and Practice</a></li>
-<li class="toctree-l2"><a class="reference internal" href="LinearAlgebraBeginnings.html">Interesting Linear Algebra Stuff</a></li>
-<li class="toctree-l2"><a class="reference internal" href="LearningTheUnitCircle.html">How I Learned the Unit Circle</a></li>
-<li class="toctree-l2"><a class="reference internal" href="TrigFunctionsAndUnitCircle.html">Using the Unit Circle in Trigonometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UsingTheUnitCircleInTrigonometry.html">Trig functions</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UsingTheUnitCircleInTrigonometry.html#domain-and-range">Domain and Range</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UsingTheUnitCircleInTrigonometry.html#reciprocal-identities">Reciprocal Identities</a></li>
-<li class="toctree-l2"><a class="reference internal" href="EvenOddAndPythagoreanIdentities.html">Even and Odd and Pythagorean Identities</a></li>
-<li class="toctree-l2"><a class="reference internal" href="DoubleAndHalfAngleFormulas.html">Double and Half Angle Formulas (Summary)</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Math</a></li>
 </ul>
 
         </div>
@@ -79,9 +65,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Math</li>
+      <li class="breadcrumb-item active">Double and Half Angle Formulas (Summary)</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/math/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/math/DoubleAndHalfAngleFormulas.md.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -89,20 +75,39 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="math">
-<h1>Math<a class="headerlink" href="#math" title="Link to this heading"></a></h1>
-<div class="toctree-wrapper compound">
-</div>
-<p>Whatever odd quirk beckoned to begin studying Calculus at same time I started being elligible for various senior discounts, whatever cowardice prevented me from the dreaded “taking it for credit” until Spring of 2024 – here we are.  Many of my math notes are of course hand-drawn, messy, on paper.  These, in contrast, are done in Jupyter Notebook and SymPy.  They are messy and not on paper.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="double-and-half-angle-formulas-summary">
+<h1>Double and Half Angle Formulas (Summary)<a class="headerlink" href="#double-and-half-angle-formulas-summary" title="Link to this heading"></a></h1>
+<section id="double-angle">
+<h2>Double Angle<a class="headerlink" href="#double-angle" title="Link to this heading"></a></h2>
+<p>Note that for cosine, of the three, first is most commonly used.</p>
+<p><span class="math notranslate nohighlight">\(\sin(2\theta) = 2 \sin\theta\cos\theta\)</span></p>
+<p><span class="math notranslate nohighlight">\(\cos(2\theta) = \cos^2\theta - \sin^2\theta\)</span></p>
+<p><span class="math notranslate nohighlight">\(\cos(2\theta) = 2\cos^2\theta - 1\)</span></p>
+<p><span class="math notranslate nohighlight">\(\cos(2\theta) = 1 - 2 \sin^2\theta\)</span></p>
+<p><span class="math notranslate nohighlight">\(\tan(2\theta) = \frac{2 \tan\theta}{1 - \tan^2\theta}\)</span></p>
+</section>
+<section id="half-angle">
+<h2>Half Angle<a class="headerlink" href="#half-angle" title="Link to this heading"></a></h2>
+<p><span class="math notranslate nohighlight">\(
+\sin(\frac{\alpha}{2}) = \pm \sqrt{\frac{1\space-\space\cos\alpha}{2}} \\
+\)</span></p>
+<p><span class="math notranslate nohighlight">\(\cos(\frac{\alpha}{2}) = \pm \sqrt{\frac{1\space+\space\cos\alpha}{2}}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\tan(\frac{\alpha}{2}) = \pm \sqrt{\frac{1\space-\space\cos\alpha}{1\space+\space\cos\alpha}}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\pm\)</span> is determined by quadrant of <span class="math notranslate nohighlight">\(\frac{\alpha}{2}\)</span></p>
+</section>
+<section id="new-identities">
+<h2>New Identities<a class="headerlink" href="#new-identities" title="Link to this heading"></a></h2>
+<p>(Paul’s Math Notes call these Half Angle Formulas, alternate form)</p>
+<p><span class="math notranslate nohighlight">\(\sin^2\theta = \frac{1\space-\space\cos(2\theta)}{2}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\cos^2\theta = \frac{1\space+\space\cos(2\theta)}{2}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\tan^2\theta = \frac{1\space-\space\cos(2\theta)}{1\space+\space\cos(2\theta)}\)</span></p>
+</section>
 </section>
 
 
            </div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../recovery/JudgementsInSobriety.html" class="btn btn-neutral float-left" title="Judgements in Sobriety" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="Journal.html" class="btn btn-neutral float-right" title="Math Journal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-    </div>
+          <footer>
 
   <hr/>
 

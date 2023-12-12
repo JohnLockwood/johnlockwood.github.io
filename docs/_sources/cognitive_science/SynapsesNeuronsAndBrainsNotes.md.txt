@@ -925,3 +925,244 @@ Auditory Transduction
 * sitting in a specialized organ
 * coupled to the physical stimulus
 
+### Early Processing of Sensory Information
+
+Today discuss auditory localization. We turn our heads to sound.  There is no explicit representation of sound direction in ear.  Requires comparing sound from two ears -- requires nervous system interpretation.  
+
+What are the physical cues?
+
+They are binaural cues, discuss only localization of pure sin waves -- two types.  First of all, minute shift in time, reaches near ear first in time.  Also slightly louder in near ear, head acts as a "shadow".  Time difference between two waves is the "Interaural Time Difference, (ITD)", Level differences are ILD, Interaural Level Difference.  He focuses mostly today on time differences.  REALLY small difference, less than one millisecond.  For sounds at front of head to a few degrees to the side, difference is a few tens of microseconds.  Tens of microseconds == hundreths of milliseconds.
+
+The phenomenon that allows this is called phase locking.  When auditory nerve fibers fire, they fire at a fixed relationship to shape of incoming sound. Neural firing spikes happen mostly at the peaks of the audio sin wave. Time therefore marks the peaks.  So with ITD -- spike times are different.
+
+Complex slide now. Auditory nerves come out of cochlear, end in a structure called the cochlear nucleus (one per side).  So these have large axons, send info to third structure, Medial Superior Olive (MSO), located below thalamus on the brain stem, along with the two cochlear nuclei.  MSO is part of the [Superior Olivary Complex](https://en.wikipedia.org/wiki/Superior_olivary_complex). MSO has dendrites pointing to two sides.  MSO is slightly off to one side, so slightly longer axon on one side than the other (in slide, one on right is longer.)  Action potential over axon takes time.  For this reason, sound happening earlier on right may reach MSO at same time.  MSO has coincidence detectors, which fire mostly when sounds arrive at same time.
+
+Circuit requires extreme specialization.  Cochlear nucleus neurons do no temporal or spatial summation -- high fidelity relay only.  Coincidence detection in MSO.  These neurons also specialized in structure and physical mechanism.  Reason -- coincidence detection requires sensitivity of 10s of microseconds, spike width could be on the order of 1 millisecond.  So very short time constants.  Important use of dendrites to resolve some of the computational problems.
+
+Similar mechanisms throughout sensory system, specialized needs:
+
+* Comparison of timing between two ears.  Also other ways to detect level differences.
+* Visual motion detection
+* Early processing of smells
+
+So specialized circuits in
+* The auditory brainstem
+* The retina in eye
+* The olfactory bulb
+
+### How Sensory Information Guides Motion
+
+Model animal for this is barn owl. Barn owls localize prey by sounds.  Can hunt in complete darkness (though prefer to do so at dusk).  Also good model for steo vision.  Main cue for azimuth of sound is ITD, just like mammals.  In addition, ears are assymetric -- left ear hears sounds from below better, so for a mouse, it will be louder in left ear.  So all the more reason to rely on ITD.  Barn owl are very good at turning heads both to visual and auditory targets. 
+
+One experiment is to take young owls, put prisms on eyes to shift the visual field by 20 degrees or so to side.  When do this, visual turns will be shifted (wrong), auditory still good.  Over time, however, auditory head turns match the visual head turns.  Note this means auditory now wrong too!  So vision is primary, because generally more reliable.  Immediately after removing prisms. takes time for auditory head turns to catch up to correct position.  
+
+As in mammals, important stuff in brain stem. The structures in barn owl that figure out ITDs (analogous to MSO in mamals) is called inferior colliculus.  From there signals go to optic tectum -- both a sensory structure and a motor structure.  Gets both visual and auditory input, and also projects down to areas which guides movement (mainly of head -- don't move eyes in socket as mammals do).  In mamals the circuit that guides movement is called the superior colliculus.
+
+Earlier mentioned that already in cochlea, get frequency differences.  Each area of sensitivty to frequency has it's own correspending area in ICC (Inferior colliculus).  Within a frequency group of neurons, certain ones will fire with 0 ITD, others with different ITD values.
+
+When you represent space, frequency is immaterial, so projection to ICX (External projection of ICC).  Here all neurons that are in same ITD time group all converge to same place in ICX, regardless of their frequency grouping.  So ICX representation independent of frequency.  So here roughly is the auditory space map.  Next station is optic tectum, which also gets visual inputs.  What's cool is that ITD (time difference) related nerves from ICX relate to OT area with correct (corresponding) azimuth in visual field.  So 0 microseconds to 0 degrees, 50 microseconds to 20 degrees, 100 to 40 degrees, etc.  So we have an auditory space map in ICX, and Multimodal in OT.  In mammals the homolog of the optic tectum is the [inferior colliculus](https://en.wikipedia.org/wiki/Inferior_colliculus).
+
+Slide showing what happens when we add the prisms.  Turns out that Optic Tectum instructs ICX to shift its behavior.  So ICX is site of plasticity.  ICC neurons too now grow new axons.  This led to hypothesis that there is a signal from OT to ICX, but couldn't be demonstrated at first.  Eventually discovered by Gutfreund, Zheng, Knudson (2002).  Just flashes in OT doesn't produce output in ICX, so then hypothesis that there's inhibitory activity.  If remove inhibition, create more intense flashes in OT, eventually saw responses in ICX.
+
+There are certain illusions like talking heads created by multimodal interactions.  Usually, we create complete representation of world from different senses.  Multimodal senses guide motion toward a sensory event, in birds and mammals.
+
+### Higher Order Processes of Sensory Information
+
+E.g. processing of surprises.
+
+Surprises cause us to re-evaluate what world is doing to us.  Can be from totally new thing, or something that occurs at times when we don't expect them to happen.  Latter is deviance detection.
+
+How to study surprises:
+
+Basic approach is:
+
+* Generate expectations
+* Violate them
+* See whether brain reacts (electrical activity, blood flow, etc.)
+* If they do, conclude that an expectation was formed.
+
+Beeps and boops -- boops rare, measure EEG signals.  See responses to boops -- different.  Boops violate expectation -- brain activity more negative in response to violation of expectation than to response to standard.  This called "Mismatch Negativity" (MMN), evoked under many different conditions.  Early -- after about 150 ms, far before information reaches consciousness.  Get something quite similar this for unexpected cadences in music.
+
+Can happen even with anaesthetized animals (rats for example). Not quite mismatch negativity.
+
+Note that for surprise, need both rarity and randomness, otherwise can be rare and periodic -- those that were random elicited a much stronger response.  So this is on border of musical perception.  Real melodies is between the two extremes.  Even anaesthetized rodents can discriminate between these types of regular and irregular.
+
+So:
+
+Sensitivity to surprise:
+
+* Neurons sensitive to surprise
+* Present even in anesthetized rats
+* Suggesting detection of surprise is major pre-attentive task.
+* Such responses may be present in other sensory systems too.
+
+### Emotions
+
+Emotions evoked by sound.
+
+* Emotions involve:
+
+* Physiological activation
+* Expressive behavior
+* Conscious experience
+
+* Happiness is related to faster heart rate (phys. activation), smiling (expressive behavior), and experience (affect)
+
+Emotions are different from other cognitive processes, such as 
+* Memory
+* Attention
+* Language
+* Problem solving
+* Planning
+
+Distinction implicit here between emotion and cognition
+
+Hard to define -- E. Rolls:  "Emotions are states elicited by rewards and punnishers"
+M.B. Arnold -- involved in conscious or unconscious evaluation of events
+A. Damasio Emotions are pre-programmed set of coordinated bodily reactions with adaptive values; affect is secondary.
+
+Affective reactions conserved across evolution
+
+So very complex, but primitive in certain cases.  Many brain regions involved, most well known is amygdala; associated with fear reactions.  Also VTA in midbrain, dopamine containing neurons; similarly the Nucleus Acumbens.  Dopamine associated with 
+"good" outcomes (food, sex, drugs). Can say goal of mamallian brain is to maximize dopamine released over course of lifetime.
+
+Music that evokes "chills".  Blood and Zatorre asked folks to bring music that elicits this reaction.  Can graph changes in heart rate.  Selection very individual of course.  Can also measure changes in blood flow in various brain structures, using PET and functional MRI: Anterior Cingulate, anterior cingulate, ventral striatum increased output; decrease in the Amygdala.
+
+Music affects activity in brain regions implicated in the processing of emotions.
+
+Auditory cortex in contrast is activated the same regardless of emotional content.
+
+Sounds, music and emotions.
+
+* How do sounds become music?
+	* How do sounds become speech?
+	* How do patches of light and dark become a picture of grandmother?
+* How does music activeate emotions?
+	* Or taste and smell and texture of a madeleine (Proust book passage).
+
+## From Synapses to Free Will
+
+Final, 9th lesson.  
+Summary:
+
+### What Did We Learn?
+* Neuroethics ("brain reading", brain intervention/augmented cognition - ethical issues emerging from brain research)
+* The question of "free will"
+* Disseminating knowledge in the digital age (MOOC, *Frontiers* and *Open Acccess* idea)
+* A personal note and farewell
+
+Started course with Francis Crick and Claude Shannon quotes.  We are a physical machine.  We need to understand machine to understand and repair ourselves.
+
+### What Did We Learn
+
+* **These are unique times** - a world-wide effort to understand brain, e.g. brainbow, connectomics, Human Brain Project, B.R.AI.N., Clarity, etc -- new theoretical efforts).  He emphasized that we really need theoretical framework.
+* That the **Spike** is a universal "trick" of nerve cells for representation / processing information, and that functional neural networks are formed via **synapses** and **PSP's** (Post-Synaptic Potentials).
+> "So you have two major electrical signals in the brain. The spikes mostly in the axons, the post-synaptic potentials mostly in the dendrites, and they converge one to the other via PSPs many of them converging on the dendritic tree, eventually giving rise if enough of them depolarize the axon giving rise to a spikes. And the connection between cells are the synapses which are fantastic unique device. Enabling one cell so to speak to talk to the other cell via a chemical transmission between the spike in one side, and the EPSP or IPSP, inhibitory or excitatory on the other side."
+* That there are two key electrical signals in the brain that are carried via specific ions flowing across specific channels in the neural membrane.
+* The neurons receive thousands of **synaptic inputs** over their dendritic tree and that the **spiking output** is generated in the axon.
+* That neurons and the networks they form **compute**.  Without such computation we would not be able to survive.  We make very sophisticated use of information from environment, and change it. Perception / active loop.
+* The synapse is the most fantastic **plastic element**, enabling us to learn and change.  Some structural (new synapses), some functional (more efficient).
+* That electrical activity of large neural network corresponsdsd to perception, action and emotion. **That brain-diseases emerge when the network activity goes wrong.**  (We don't completely understand this -- big challenge for 21st century)
+* That we lack **a theory** on how to connect brain mechanisms to subjective experience.  -- the ***biggest*** challenge for 21st century.
+
+### Free will and neuro-ethics
+
+Neuroethics emerging issues
+
+* Brain reading
+* Brain interventions (repair and manipulations). E.g. "mood brighteners", augmenting cognition electrically, or using drugs.
+* Are we free to choose?
+
+#### Reading Thoughts
+
+Issues (in brief):
+
+* Privacy
+* Reproducibility (accuracy)
+* Individuality (how similar/different are our "personal" brains?)
+
+Scanning the ("social") brain:
+
+Functional Magnetic Resonance Imaging (MRI)
+
+* Detects brain function in health and diseases
+* Communicating with brain in vegetative states
+* **Detecting beliefs?  Intentions?  (e.g. lie, agrressions)**
+
+MRI technically only measures blood flow, so electrical activity only indirectly.
+
+E.g. face-related region in brain.  
+
+Resolution not good -- over millions of cells.
+
+Same region overall lights up for different people.  But can't tell whose face, unless you do machine learning on a particular individual.  So where specific faces are encoded is individual.
+
+### Brain Reading Part 2
+
+Kawabata and Zeki -- "Neural correlates of beauty".
+
+1.  Are there brain areas that are consistently active across all subjects that are active when you think a painting is a) beautiful b) ugly
+
+* 10 students of both sexes
+* 4 categories of paintings -- each student had to quantify how much they liked/disliked painting (1-10)
+
+Results:
+
+* For a particular category, you see a certain brain region (except abstract vs. non-abstract).  Interesting but not the point of study.
+
+* For Beautiful vs. Ugly, For beautiful:  Medial Orbital Frontal Cortex lights up.  For ugly - Somato-motor cortex (strong at left hemisphere).
+
+Note -- both regions are active for both ugly and beautiful, but one is activated more than the others for ugly vs. beautiful.
+
+One hypothesis for why motor cortex more active for ugly is that you "want to escape" the painting, painting is aversive.
+
+Even more intesting is case where you can't interact with brain otherwise, i.e, 
+
+#### Interacting with the Brain in Vegetative States
+
+New England Journal of Medicine article, "Willful Modulation of Brain Activity in Disorders of Consciousness" Martin Monti et al.
+
+SOME of these patients can respond willfully and specifically using particular brain regions.  Can teach patient to image something like motor cortex for yes, and when answer is no, image a tree (for example).
+
+Raises issues of brain polygraph.  EEG or fMRI
+
+* What is succcess rate?  There's the issue of calibrating per person.  Very rare to take one image and say something.  Issue of noise and variability, as well as personal variability.  Polygraph has to be calibrated to individual, meaning individual has to cooperate to some extent.
+* How does it compare to regular polygraphs?  As of now, "brain polygraph" and regular polygraph have about the same results.
+
+### Free Will
+
+Reminder about Transcranial Magnetic Stimulation - TMS, non-invasive probing of living brain.  Here you are inducing activity in a large group of cells, can ask what that region is responsible for.
+
+Picture of Oliver Sacks getting it.  Was curious whether he could start to draw better.  Can he enhance cognition?  Of course, it's transient.
+
+Recent book "Augmenting Cognition" that our professor edited with Henry Markham.
+
+#### How Free Are We?
+
+Phineas Gage -- most famous patent to have survived severe damage to brain.  Vermont, 1848 -- have reconstruction of his skull.  Rod through PFC.  We learned about relation between personality of front part of brain.  Major personality change -- friends said he was not the same person.  So we all agree he didn't choose the change, in his case -- was he free to be a nice person before?  Or are we all not free?
+
+Thomas Huxley "Are we completely defined  by the deterministic nature of physical laws?" I.e. driven as automota, "Or do we have some independence..."
+
+Isaac Bashevis Singer --  life is worth living for the little free choice we have.
+
+Most dramatic and famous research -- Benjamin Libet experiments.  He used EEGs with many electrodes.  Experiment is you're shown rotating ball, you decide freely when to press a button.  You have to decide at what time you decided to press button.  Curve of when you press (time 0), but EEG "readiness potential" signal builds up some 2000 ms before that.  But reported time of decision is almost at end of readiness potential, maybe 100 ms before actual pressing button.  So subconscious is active before the thing you call "you" decides.
+
+Many people take this to mean you do not have free will.  If you're not aware of it, what kind of free will is it?
+
+>
+"Libet's findings have been widely taken to show that since our brain has already started preparing to flex the wrist before we even became aware of our intention to flex it, our supposedly free will is not free at all.
+
+Rather, our brain has decided for us and has started to a causal chain, leading to a finger bending before we became aware of our decision. Thus, our will appears to determined and causally irrelevant. I feel like I decide causally, in my head, but this was already decided before I'm aware of it." 
+
+Furthermore, there are new results. (2009) -- patients who have undergone brain surgery are stimulated using electrodes.  In left/right inferior parietal region.  If stimulate it with low intensity, patient reports a desire to lick lips, at higher intensity, "I moved my mouth, I talked, what did I say?" (illusory movement).  In premotor region -- stimulate, hand will move but he's not aware of it.
+
+Wolf Singer from Max Planck Institute in Frankfort - 2004.  "Crime itself should be taken as evidence of brain abnormality. ... Free will is an illusion. ... We need to continue to assign value to our behavior - essential to organizing society."
+
+### Farewell Words
+
+These are unique, exciting times.  Again stress need for a theoretical framework.
+
+The brain is plastic, so we (and the world) are constantly changing (action-perception loop).  Still we judge things as deterministic, "good and bad", "right and wrong" -- as if people were static; this is incorrect.
+
+
+![Course Finished](final_finished_course_snb.png)

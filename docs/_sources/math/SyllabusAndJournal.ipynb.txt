@@ -15,7 +15,9 @@
    "id": "dc424b86-31c3-448d-857e-3e035bcfa0da",
    "metadata": {},
    "source": [
-    "This is the Syllabus and Journal for my math studies. This is the preliminary syllabus for the current course (see the Overview, below).\n",
+    "This is an earlier Syllabus and Journal for my math studies, back when I was trying to make a habit of doing this informally. \n",
+    "\n",
+    "This is the preliminary syllabus for the current course (see the Overview, below).\n",
     "\n",
     "> _\"This syllabus and the Jupyter notes are not the moon, they are the finger pointing at the moon.  The finger should be covered in fountain pen ink, because it's learning math.\"_\n",
     "\n",
