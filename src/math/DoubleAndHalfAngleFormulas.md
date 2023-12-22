@@ -37,3 +37,5 @@ $\cos^2\theta = \frac{1\space+\space\cos(2\theta)}{2}$
 
 
 $\tan^2\theta = \frac{1\space-\space\cos(2\theta)}{1\space+\space\cos(2\theta)}$
+
+See [also How to remember the trigonometric identities](https://math.stackexchange.com/questions/93274/how-to-remember-the-trigonometric-identities)
