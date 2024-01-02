@@ -31,5 +31,42 @@
 	[Factoring Quadratics...How?](https://www.youtube.com/watch?v=YtN9_tCaRQc&t=332s).  Also [Intro to Solving Quadratics (Leonard Precalc # 16)](https://www.youtube.com/watch?v=OIEkJaPgjKs&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=17)
 	* In source/CodeSolid/sympy-tutorial, review some SymPy stuff, in branch calculus_testing, file Precalc_Demo.ipynb.  Especially figure out how to change aspect ratio. :)
 * Thurs Dec 21, 2023
-	* Spent some time memorizing half-angle and double angle formulas.  Have them down pretty well, needs more attempts.
+	* Spent some time memorizing half-angle and double angle formulas.  Flash cards.  Have them down pretty well, needs more attempts.
 	* Some Desmos -- trying to figure out triangle tool.  Not good.  Also tried Geogebra.
+* Friday Dec 22, 2023
+	* [Factoring quadratics](https://www.youtube.com/watch?v=YtN9_tCaRQc)
+	* [Do Board problems from this video](https://www.youtube.com/watch?v=u2CFHYJWS60&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=18).  And watch parts.  Do first 3 probls today, leave some for later.
+* Saturday Dec 23, 2023
+	* Review Half Angle / Double Angle Formulas
+* Sunday, Dec 24, 2023 NocheBuena
+	* Looking for History of Math -- popular math books
+	* Read about the [Quadrature of the Lune](https://www.britannica.com/topic/Quadrature-of-the-Lune-1688524), mentioned in [Journey Through Genius](https://www.amazon.com/Journey-through-Genius-Theorems-Mathematics/dp/014014739X/ref=sr_1_1?crid=30DXNGM42PKT1&keywords=Journey+THROUGH+GENIUS&qid=1703428093&sprefix=journey+through+genius%2Caps%2C96&sr=8-1&asin=014014739X&revisionId=&format=4&depth=1)
+	* Play with parametric equations and curves,[here](https://tutorial.math.lamar.edu/Classes/CalcII/ParametricEqn.aspx) and [here](https://www.geogebra.org/m/cAsHbXEU); and on desmos
+* Tuesday, December 26, 2023
+	* Using the [vertical line test](https://www.youtube.com/watch?v=7j6kh8Z2H90&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6), to test if an equation etc is a function.  Watch [Logarthims - How?](https://www.youtube.com/watch?v=Zw5t6BTQYRU). This is a prelude to this, which I should do next time... [Solving logarithmic equations](https://www.youtube.com/watch?v=rBnQiLa2TYo)  See [notes here](https://johnlockwood.com/math/LogarithmsAndExponents.html).  
+	* Next watched part of this, [Euler's constant and natural log](https://www.youtube.com/watch?v=Q9puUgDc2BY), but a bit too fast.
+* Wednesday 27 Dec 2023
+	* More [Log review](https://www.youtube.com/watch?v=rBnQiLa2TYo)
+* Thursday 28 Dec 2023
+	* [Graphs You Must Know](https://www.youtube.com/watch?v=NrmmR3-VxA8&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=13)
+	* Begin watching [Propositional Logic](https://www.youtube.com/@Trevtutor).  Pretty much like intro to logic, but with new symbols and with mathematical formulae for truth operators.
+* Friday 29 Dec 2023
+	* Reading How to Ace Calculus
+	* LogReview.ipynb, reworking markdown Log notes with some Python.
+	* Did some quadratic equation problems.
+	* Began reading The Transcendental Tangle, "that awful book".
+* Saturday 30 Dec 2023
+	* Work on exponential growth and decay functions from Transcendental Tangle.
+	* A bit puzzling why we need $e$ for this, so maybe follow up in future with 
+	[Exponential Growth and Decay](https://www.youtube.com/watch?v=rO-C48LY2KY) (prof Leonard)
+	* Sympy already there in online python on CodeSolid.
+* Sunday 31 Dec 2023
+	* Begin Intro Graph Theory.
+	* One easy rate of decay problem Python.
+* Monday 1 Jan 2024
+	* Finish Graphs chapter of Trudeau's Introduction to Graph Theory (No exercises yet, except mentally on the first two.).  A great read.
+* Tuesday 2 Jan 2023
+	* Continue Trudeau, on to planar graphs.		
+
+
+
