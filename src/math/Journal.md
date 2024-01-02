@@ -43,7 +43,7 @@
 	* Read about the [Quadrature of the Lune](https://www.britannica.com/topic/Quadrature-of-the-Lune-1688524), mentioned in [Journey Through Genius](https://www.amazon.com/Journey-through-Genius-Theorems-Mathematics/dp/014014739X/ref=sr_1_1?crid=30DXNGM42PKT1&keywords=Journey+THROUGH+GENIUS&qid=1703428093&sprefix=journey+through+genius%2Caps%2C96&sr=8-1&asin=014014739X&revisionId=&format=4&depth=1)
 	* Play with parametric equations and curves,[here](https://tutorial.math.lamar.edu/Classes/CalcII/ParametricEqn.aspx) and [here](https://www.geogebra.org/m/cAsHbXEU); and on desmos
 * Tuesday, December 26, 2023
-	* Using the [vertical line test](https://www.youtube.com/watch?v=7j6kh8Z2H90&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6), to test if an equation etc is a function.  Watch [Logarthims - How?](https://www.youtube.com/watch?v=Zw5t6BTQYRU). This is a prelude to this, which I should do next time... [Solving logarithmic equations](https://www.youtube.com/watch?v=rBnQiLa2TYo)  See [notes here](https://johnlockwood.com/math/LogarithmsAndExponents.html).  
+	* Using the [vertical line test](https://www.youtube.com/watch?v=7j6kh8Z2H90&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=6), to test if an equation etc is a function.  Watch [Logarthims - How?](https://www.youtube.com/watch?v=Zw5t6BTQYRU). This is a prelude to this, which I should do next time... [Solving logarithmic equations](https://www.youtube.com/watch?v=rBnQiLa2TYo)  See [notes here](LogarithmsAndExponents).
 	* Next watched part of this, [Euler's constant and natural log](https://www.youtube.com/watch?v=Q9puUgDc2BY), but a bit too fast.
 * Wednesday 27 Dec 2023
 	* More [Log review](https://www.youtube.com/watch?v=rBnQiLa2TYo)

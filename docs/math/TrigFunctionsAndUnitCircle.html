@@ -7,7 +7,7 @@
   <title>Using the Unit Circle in Trigonometry &mdash; JohnLockwood.com 0.1 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/nbsphinx-code-cells.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -59,8 +59,8 @@
 <li class="toctree-l2"><a class="reference internal" href="LinearAlgebraBeginnings.html">Interesting Linear Algebra Stuff</a></li>
 <li class="toctree-l2"><a class="reference internal" href="LearningTheUnitCircle.html">How I Learned the Unit Circle</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Using the Unit Circle in Trigonometry</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#SOH-CAH-TOA">SOH CAH TOA</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#Quadrant-Angles">Quadrant Angles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soh-cah-toa">SOH CAH TOA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quadrant-angles">Quadrant Angles</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="UsingTheUnitCircleInTrigonometry.html">Trig functions</a></li>
@@ -68,6 +68,7 @@
 <li class="toctree-l2"><a class="reference internal" href="UsingTheUnitCircleInTrigonometry.html#reciprocal-identities">Reciprocal Identities</a></li>
 <li class="toctree-l2"><a class="reference internal" href="EvenOddAndPythagoreanIdentities.html">Even and Odd and Pythagorean Identities</a></li>
 <li class="toctree-l2"><a class="reference internal" href="DoubleAndHalfAngleFormulas.html">Double and Half Angle Formulas (Summary)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LogarithmsAndExponents.html">Logarithms and Exponents</a></li>
 </ul>
 </li>
 </ul>
@@ -97,82 +98,65 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="Using-the-Unit-Circle-in-Trigonometry">
-<h1>Using the Unit Circle in Trigonometry<a class="headerlink" href="#Using-the-Unit-Circle-in-Trigonometry" title="Link to this heading"></a></h1>
-<p>Reviewing for Calculus. Notes taken on <a class="reference external" href="https://www.youtube.com/watch?v=GdRZfemxTFI&amp;list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&amp;index=81">Professor Leonard Trig 7 - How to Use the Unit Circle in Trigonometry</a>, November 8-9, 2023.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="using-the-unit-circle-in-trigonometry">
+<h1>Using the Unit Circle in Trigonometry<a class="headerlink" href="#using-the-unit-circle-in-trigonometry" title="Link to this heading"></a></h1>
+<p>Reviewing for Calculus.  Notes taken on <a class="reference external" href="https://www.youtube.com/watch?v=GdRZfemxTFI&amp;amp;list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&amp;amp;index=81">Professor Leonard Trig 7 - How to Use the Unit Circle in Trigonometry</a>, November 8-9, 2023.</p>
 <p>[Let me apologize for the formatting of this – this looks better in Jupyter Lab than it will here. I’m not sure</p>
 <p>Two different approaches to trig functions – show why they work.</p>
-<p>One approach: trig functions relate an angle to two sides of a right triangle. (Usually one of the acute angles.) So need three things in every trig function.</p>
+<p>One approach:  trig functions relate an angle to two sides of a right triangle.  (Usually one of the acute angles.) So need three things in every trig function.</p>
 <p>Other approach:</p>
 <p><img alt="Unit Circle with right triangle" src="../_images/UnitCircle1.png" /></p>
 <p>Remember for radians lectures</p>
 <div class="math notranslate nohighlight">
-\[s = r  \theta\]</div>
+\[ s = r  \theta \]</div>
 <p>On unit circle, r = 1, and function becomes</p>
 <div class="math notranslate nohighlight">
-\[t = r\times \space \theta\]</div>
+\[ t = r\times \space \theta \]</div>
 <p>or</p>
 <div class="math notranslate nohighlight">
-\[t = 1\times\theta\]</div>
+\[ t = 1\times\theta \]</div>
 <p>so ONLY on a unit circle, angle is same as arc length.</p>
-<p>For radians, on unit circle, arc length = radius. If radius not one, doesn’t work.</p>
+<p>For radians, on unit circle, arc length = radius.  If radius not one, doesn’t work.</p>
 <div class="math notranslate nohighlight">
-\[\sin t = \sin \theta = y\]</div>
+\[ \sin t = \sin \theta = y \]</div>
 <div class="math notranslate nohighlight">
-\[\cos t = \cos \theta = x\]</div>
+\[ \cos t = \cos \theta = x \]</div>
 <div class="math notranslate nohighlight">
-\[\tan t = \tan \theta = \frac{y}{x} = \frac{\sin\theta}{\cos\theta}\]</div>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[\csc \theta = \frac{1}{y}\]</div>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[\sec \theta = \frac{1}{x}\]</div>
-</div></blockquote>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[\sec \theta = \frac{x}{y}\]</div>
-</div></blockquote>
+\[ \tan t = \tan \theta = \frac{y}{x} = \frac{\sin\theta}{\cos\theta} \]</div>
+<div class="math notranslate nohighlight">
+\[ \csc \theta = \frac{1}{y} \]</div>
+<div class="math notranslate nohighlight">
+\[ \sec \theta = \frac{1}{x} \]</div>
+<div class="math notranslate nohighlight">
+\[ \sec \theta = \frac{x}{y} \]</div>
 <p>sin = y because y to x axis is vertical line, forming right triangle, etc.</p>
 <p>So trig functions relate either the arc length or central angle to the point on the unit circle.</p>
-<section id="SOH-CAH-TOA">
-<h2>SOH CAH TOA<a class="headerlink" href="#SOH-CAH-TOA" title="Link to this heading"></a></h2>
+<section id="soh-cah-toa">
+<h2>SOH CAH TOA<a class="headerlink" href="#soh-cah-toa" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>SOH: Sin(θ) = Opposite / Hypotenuse</p></li>
 <li><p>CAH: Cos(θ) = Adjacent / Hypotenuse</p></li>
 <li><p>TOA: Tan(θ) = Opposite / Adjacent</p></li>
 </ul>
-<p>Now filling out unit circle. Deal with</p>
+<p>Now filling out unit circle.  Deal with</p>
 </section>
-<section id="Quadrant-Angles">
-<h2>Quadrant Angles<a class="headerlink" href="#Quadrant-Angles" title="Link to this heading"></a></h2>
-<p>Figuring out all six trig functions for angles (in radians), 0, $ <span class="math">\frac{\pi}{2}</span> $, $ <span class="math">\pi `$ $ :nbsphinx-math:</span>frac{3}{2}` <span class="math">\pi `$, $ 2 :nbsphinx-math:</span>pi <a href="#id1"><span class="problematic" id="id2">`</span></a>$.</p>
+<section id="quadrant-angles">
+<h2>Quadrant Angles<a class="headerlink" href="#quadrant-angles" title="Link to this heading"></a></h2>
+<p>Figuring out all six trig functions for angles (in radians), 0, <span class="math notranslate nohighlight">\( \frac{\pi}{2} \)</span>, <span class="math notranslate nohighlight">\( \pi \)</span> <span class="math notranslate nohighlight">\( \frac{3}{2} \pi \)</span>, <span class="math notranslate nohighlight">\( 2 \pi \)</span>.</p>
 <p>Note signs +/- for various functions in various quadrants.</p>
-<p>Mnemonic: All Students Take Calculus for what sign is in four quadrants (I. All II sin III tan IV cos)</p>
+<p>Mnemonic:  All Students Take Calculus for what sign is in four quadrants (I. All II sin III tan IV cos)</p>
 <p>Relates to graphs of the trig functions</p>
-<p>Can we determine trig functions from a point, say $ <span class="math">\lparen{-\frac{1}{2}, \frac{\sqrt{3}}{2}}</span> )$</p>
-<p>Sin is y value, $ <span class="math">\frac{\sqrt{2}}{2}</span> $ cos is x value, and tan is $ <span class="math">\frac{cos}{sin}</span> = <span class="math">\frac{y}{x}</span> - <span class="math">\sqrt{3}</span> $. When reciprocate, should <a class="reference external" href="https://www.mathsisfun.com/algebra/rationalize-denominator.html">rationalize denominator</a>.</p>
-<p>Exercise: Find 6 trig function values for $ <span class="math">\frac{5\pi}{3}</span> $</p>
-<p>I did some later functions on paper. I did mine before he did his – generally right. One mistake was on multiplying square roots. Note that this is correct:</p>
+<p>Can we determine trig functions from a point, say <span class="math notranslate nohighlight">\( \lparen{-\frac{1}{2}, \frac{\sqrt{3}}{2}} )\)</span></p>
+<p>Sin is y value, <span class="math notranslate nohighlight">\( \frac{\sqrt{2}}{2} \)</span>  cos is x value, and tan is <span class="math notranslate nohighlight">\( \frac{cos}{sin} =  \frac{y}{x} - \sqrt{3} \)</span>.  When reciprocate, should <a class="reference external" href="https://www.mathsisfun.com/algebra/rationalize-denominator.html">rationalize denominator</a>.</p>
+<p>Exercise: Find 6 trig function values for <span class="math notranslate nohighlight">\( \frac{5\pi}{3} \)</span></p>
+<p>I did some later functions on paper.  I did mine before he did his – generally right. One mistake was on multiplying square roots.  Note that this is correct:</p>
 <div class="math notranslate nohighlight">
-\[\sqrt(2) \space \times \space \sqrt(3) = \sqrt(6)\]</div>
+\[ \sqrt(2) \space \times \space \sqrt(3) = \sqrt(6) \]</div>
 <p>I thought I had to leave it as left hand side (unsimplifed).</p>
-<p>Rest of video was mixed calculator / unit circles problems. Well, Jupyter is a calculator too, :) here we go.</p>
-<div class="nbinput docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[11]:
-</pre></div>
-</div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<p>Rest of video was mixed calculator / unit circles problems.  Well, Jupyter is a calculator too, :) here we go.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;sin(28 degrees) = &quot;</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="mi">28</span><span class="p">)))</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;cot pi / 12 = &quot;</span><span class="p">,</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">math</span><span class="o">.</span><span class="n">tan</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mi">12</span><span class="p">))</span>
@@ -181,26 +165,16 @@
 </pre></div>
 </div>
 </div>
-<div class="nboutput nblast docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-sin(28 degrees) =  0.4694715627858908
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>sin(28 degrees) =  0.4694715627858908
 cot pi / 12 =  3.7320508075688776
 sin 1 degree =  0.01745240643728351
 sin 1 =  0.8414709848078965
-</pre></div></div>
-</div>
-<p>The above ended up being correct in terms of the lecture, so no dumb coding / typing mistakes. Just ended up watching the less problem, finding trig functions for a point (-3, 4), because I’m just reviewing for Calculus, I don’t want to major in trig. :)</p>
-<div class="nbinput nblast docutils container">
-<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
-</pre></div>
-</div>
-<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
 </div>
 </div>
+</div>
+<p>The above ended up being correct in terms of the lecture, so no dumb coding / typing mistakes.  Just ended up watching the less problem, finding trig functions for a point (-3, 4), because I’m just reviewing for Calculus, I don’t want to major in trig. :)</p>
 </section>
 </section>
 

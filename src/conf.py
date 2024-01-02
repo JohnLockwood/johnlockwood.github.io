@@ -17,15 +17,15 @@ release = '0.1'
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-extensions = ['myst_parser', 'nbsphinx']
+extensions = ['myst_nb', 'nbsphinx']
 
-myst_enable_extensions = [
-	"dollarmath"
+myst_enable_extensions = [	
+ "amsmath",
+ "dollarmath",
 ]
 
 source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
+    '.rst': 'restructuredtext'
 }
 
 

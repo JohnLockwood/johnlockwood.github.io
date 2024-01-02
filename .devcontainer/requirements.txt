@@ -7,3 +7,4 @@ jupyterlab
 sympy
 pandas
 seaborn
+myst-nb

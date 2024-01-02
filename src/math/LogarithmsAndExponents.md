@@ -1,3 +1,9 @@
+---
+file_format: mystnb
+kernelspec:
+  name: python3
+---
+
 # Logarithms and Exponents
 
 I feel like this area needed some review, so here are some notes on various things.  Logarithmic functions are inverse of exponential functions, so:
@@ -36,12 +42,12 @@ $ ln_e (e^3) = x \iff e^x = e^3 \therefore x = 3 $
 
 ## Even weirder
 
-$$ log_x\space32 = 5 \iff x^5 = 32 x = 2$$
+$$ log_x\space32 = 5 \iff x^5 = 32 x = 2$ $
 
 
 $$ log_5x = 3 \iff 5^3 = x; x = 125$$
 
-$$ Calculate log_2\space7 \iff 2^x = 7 $$ 
+$$ log_2\space7 \iff 2^x = 7 $$
 
 Change of base formula says we can do:
 
@@ -90,7 +96,8 @@ $ \log_2 x + \log_2 (x-2) = 3 $
 
 Equivalent to
 
-$ \log_2 \space (x * (x -2)) \\
+$$
+\log_2 \space (x * (x -2)) \\
 \log_2 \space \therefore \\
 2^3 = x(x-2) \\
 8 = x^2 - 2x \\
@@ -98,8 +105,11 @@ x^2 - 2x - 8 = 0 \\
 (x -4)(x + 2) = 0 \\
 x = 4, x = -2 \\
 x = 4, \cancel{(x = 2)}
-$
+$$
 
 Have to plug back in... which leads us to throw out the -2 as it's a domain error.
-$
+
+
+
+
 
