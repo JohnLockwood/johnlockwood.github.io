@@ -65,8 +65,36 @@
 	* One easy rate of decay problem Python.
 * Monday 1 Jan 2024
 	* Finish Graphs chapter of Trudeau's Introduction to Graph Theory (No exercises yet, except mentally on the first two.).  A great read.
-* Tuesday 2 Jan 2023
-	* Continue Trudeau, on to planar graphs.		
-
-
-
+* Tuesday 2 Jan 2024
+	* Continue Trudeau, on to planar graphs.
+	* More on exponentials and logarithms.  Resources in notes.  Begin with this [Graphs of Exponential Functions (Prof Leonard)](https://www.youtube.com/watch?v=2w14jBb0e9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=52)
+	* limits.py function to create limits.
+* Wednesday 3 Jan 2024
+	* Continue on Trudeau, finish planar graphs, on to Euler's function.  
+	* [Exponential Functions of Common Base](https://www.youtube.com/watch?v=gkUWLFontZU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=55)
+* Thurs 4 Jan 2024
+	* Work a bit on Euler's formula (Trudeau ~ pp 101-104), and on paper.  
+	* More quadratic work, solve 10 chat-gpt-generated factorable quadratics using "[diamond method](http://mrsgalgebra.pbworks.com/w/page/12019048/Diamond%20Method%20for%20Factoring%20Polynomials)".
+* Friday 5 Jan 2024
+	* Reading Trudeau
+	* Same 10 quadratic fns from Thursday, this time using quad. formula.	
+* Sat 1/6/24
+	* Reading Trudeau - coloring.
+	* Some exponentials with common base. (From [this video](https://www.youtube.com/watch?v=gkUWLFontZU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=55))
+* Sun 1/7
+	* Reading Trudeau only.
+* Monday 1/8
+	* Tomorrow's the day! 
+	* "Finish up" rough reading (no exercises and portions of difficult passages skipped) of Trudeau.
+	* [Intro to Solving Logarithms and Exponentials](https://www.youtube.com/watch?v=KezbqAAlOZk&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=57) with, as usual, problems worked by hand.
+	* Take mandatory "sign off on policy" brightspace quiz.
+* Tuesday, 1/9
+	* First day of Calculus class, Calc I, MAT 271 with Emma Scothorn.  "Rain" day, met virtually.
+	* Finished about 60% or so of the math homework for this week.  So far so good.  Online (Cengage + Webassign) tools are pretty good.  "Master It" button is your friend.
+* Weds, 1/10/2014
+	* Lot of time (about 5 hours) spent on homework 2.3.  (Need to do more problems 9, 11, and 12 especially).
+	* New calculator came in, learned how to plot and do some basic things.
+* Thursday 1/11
+	* First day in person Calc I Mat 271.  Units 2.2 and 2.3 on limits (review -- I was ahead on homework this week).  Calculator skills awful for a test, so...
+	* When I got home figured out how to substitute values into an equation, to solve functions, where the cubed kerjigger is, how to not use minus when I mean negative since the device is dumb, and a few other things along the way.  Need about an hour a day to get good at this.
+	

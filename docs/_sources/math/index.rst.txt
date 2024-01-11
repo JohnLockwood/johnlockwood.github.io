@@ -1,5 +1,5 @@
-Math
-====
+Math Notes
+==========
 
 .. toctree::   
    :caption: Contents:

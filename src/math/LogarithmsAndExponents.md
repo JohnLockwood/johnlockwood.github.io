@@ -10,17 +10,21 @@ I feel like this area needed some review, so here are some notes on various thin
 
 $$ y = log_a x \iff x = a^y $$
 
-See these resources:
+This page begins with some notes on videos of NancyPi, then Professor Leonard.  The latter began from a more basic starting point of exponential functions.
 
-* [Logarithms -- How?](https://www.youtube.com/watch?v=Zw5t6BTQYRU)
-* [Solving Logarithmic Equations...How?](https://www.youtube.com/watch?v=rBnQiLa2TYo)
+* [Logarithms -- How? (Nancy Pi)](https://www.youtube.com/watch?v=Zw5t6BTQYRU)
+* [Solving Logarithmic Equations...How?  (Nancy Pi)](https://www.youtube.com/watch?v=rBnQiLa2TYo)
+* [Graphs of Exponential Functions (Prof Leonard)](https://www.youtube.com/watch?v=2w14jBb0e9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=52)
+* [Solving Exponsnetial Equations with Common Bases (Prof Leonard)](https://www.youtube.com/watch?v=gkUWLFontZU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=54)
 
-## Easy examples
+## Nancy Pi Notes
+
+### Easy examples
 
 $ log_3\space9 $, think to yourself 3 to what power equals 9, but formally, do this, make it equal to x, i.e.
 $ x = log_3\space 9 $.  Next use formula above so $ x = log_3\space 9 \iff 3^x = 9 $ therefore x = 2, or $ log_3\space 9 = 2 $.  With no base, e.g. $ log 10000 $, then base = 10, so equals $log_{10} \space10000 = x \iff x^10 = 10000 = 4$.
 
-## Weirder logs
+### Weirder logs
 
 $ log_2\space\frac{1}{8} = x \iff 2^x = \frac{1}{8}.\space \therefore \space  x = -3$ 
 
@@ -28,7 +32,7 @@ Other weird ones:
 
 $ log\space 1 (1); log\space0 (undefined); log\space(-1) (undefined)$
 
-## Natural logs
+### Natural logs
 
 $ ln\space1 = log_e\space1 $
 
@@ -40,7 +44,7 @@ $ ln(e^3) $  Visually, this should be 3!  Do it long way:
 
 $ ln_e (e^3) = x \iff e^x = e^3 \therefore x = 3 $
 
-## Even weirder
+### Even weirder
 
 $$ log_x\space32 = 5 \iff x^5 = 32 x = 2$ $
 
@@ -55,7 +59,7 @@ $$ \frac{log\space7}{log\space2} $$
 
 You need to plug that into a calculator.  Answer by the way is 2.807354922057604.
 
-## Log Properties
+### Log Properties
 
 $ log_a(x * y ) =  log_a\space x + log_a\space y $
 
@@ -63,7 +67,7 @@ $ log_a\space(\frac{x}{y} ) =  log_a\space x -  log_a\space y $
 
 $ log_a\space x^n  =  n\space log_a\space x $
 
-## More solving
+### More solving
 
 E.g. 
 
@@ -109,7 +113,14 @@ $$
 
 Have to plug back in... which leads us to throw out the -2 as it's a domain error.
 
+## Professor Leonard
 
+### Graphs of Exponential Functions
 
+Polynomials have variables, sometimes raised to a constant exponent.  E.g. $ax^2 + bx + c = 0$ is a polynomial.  In contrast an exponential function has the variable as the exponent, e.g. $f(x) = a^x$, where a is always positive, not 0 or 1.  As base gets > 1, get an increasing graph.  As it gets less than one (but not negative), get decreasing graph.  E.g. [this graph](https://www.desmos.com/calculator/tktieezuxb).  All this assumes that exponents positive too.  Remember, negative exponents create reciprocals, e.g. $2^{-1} = \frac{1}{2}$. 
+
+Exponential functions have a key point at (0, 1) and a horizontal asymptote.  Domain is all reals, but range is always positive.  
+
+## Solving Exponential Equations with Common Bases
 
 

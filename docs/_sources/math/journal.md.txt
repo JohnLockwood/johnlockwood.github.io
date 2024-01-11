@@ -66,7 +66,11 @@
 * Monday 1 Jan 2024
 	* Finish Graphs chapter of Trudeau's Introduction to Graph Theory (No exercises yet, except mentally on the first two.).  A great read.
 * Tuesday 2 Jan 2023
-	* Continue Trudeau, on to planar graphs.		
-
+	* Continue Trudeau, on to planar graphs.
+	* More on exponentials and logarithms.  Resources in notes.  Begin with this [Graphs of Exponential Functions (Prof Leonard)](https://www.youtube.com/watch?v=2w14jBb0e9Q&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=52)
+	* limits.py function to create limits.
+* Wednesday 3 Jan 2023
+	* Continue on Trudeau, finish planar graphs, on to Euler's function.  
+	* [Exponential Functions of Common Base](https://www.youtube.com/watch?v=gkUWLFontZU&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=55)
 
 
