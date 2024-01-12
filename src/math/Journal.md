@@ -97,4 +97,8 @@
 * Thursday 1/11
 	* First day in person Calc I Mat 271.  Units 2.2 and 2.3 on limits (review -- I was ahead on homework this week).  Calculator skills awful for a test, so...
 	* When I got home figured out how to substitute values into an equation, to solve functions, where the cubed kerjigger is, how to not use minus when I mean negative since the device is dumb, and a few other things along the way.  Need about an hour a day to get good at this.
+* Friday 1/12
+	* A smackerel of How to Ace Calculus
+	* Redo in class exercises from Thursday, and problematic homework from section 2.3.  Nice!
+	* Begin working on Homework and reading for section 2.4.  Good progress.
 	
