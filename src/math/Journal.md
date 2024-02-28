@@ -101,4 +101,98 @@
 	* A smackerel of How to Ace Calculus
 	* Redo in class exercises from Thursday, and problematic homework from section 2.3.  Nice!
 	* Begin working on Homework and reading for section 2.4.  Good progress.
+	* Begin Reading Robert Stoll's Set Theory and Logic (sample)
+* Saturday 1/13/2024
+	* Continue on Stoll's Set Theory
+	* About 40 minutes or so on homework # 2.4, Continuity and One-Sided Limits.  Made some progress.
+* Sunday 1/14
+	* Continue homework # 2.4.  Only one thorny problem left and one to redo.
+	* Continue a bit of Stoll's Set Theory.
+* Monday 1/15
+	* Troubleshot nasty problem from yesterday -- first answer was almost correct, but wrote "log" instead of "ln" in the answer box.  :(
+	* About halfway done with problem set 2.5 -- so more than a week ahead. :)
+	* Associated video on infinite limits, etc.
+* Tuesday 1/16/24
+	* Holiday - no class.
+	* Begin 3.1 work
+* Wednesday 1/17/24
+	* Continue work on exercises 3.1
+	* Continue reading Stoll
+* Thursday 1/18/24
+	* Attend class
+	* Meet with teacher re # 2.5 # 5
+	* Finish 3.1 homework and attendance this week. :)
+* Friday 1/19/24
+	* Reading up on Coq
+	* Download signature assignment, having trouble with files
+	* Finally able to begin work on this signature assignment and pretty much finish it.  It's in OneDrive and can be edited further on Microsoft 365.
+* Saturday 1/20/24
+	* Reading Boyer on history of math.
+	* Reading Russell Introduction to Mathematical Philosophy; first intro to [Peano's axioms](https://en.wikipedia.org/wiki/Peano_axioms).
+* Sunday 1/21/24
+	* Continue reading Boyer, enjoyed especially ~ pp. 51-52 on Pythagoreans and Euclid's cool method for doing a golden section of a line segment, which he called finding the extreme and mean segment.  Began some reading and playing around with regular solids, found the formula for the interior angles of any regular polygon, given n = number of sides, interior angle formula is as below:
+$$
+	\frac{(n - 2) * 180}{n}
+$$
+
+E.g. for a triangle, $\frac{(3 - 2) * 180}{3} = \frac{180}{3} =60^o$
+
+For a square, $\frac{(4 - 2) * 180}{4} = \frac{360}{4} = 90^o$
+
+For a regular pentagon, $\frac{(5 - 2) * 180}{5}= \frac{540}{5} = \frac{540}{5} = 108^o$
+
+* Monday, January 22, 2024
+	* Continue reading Boyer.
+
+* Tuesday, 1/23/24
+	* Class Calc I
+	* Review previous homework, 2.2 and most of 2.3.  Retry problems and build list of problem areas.
+	* Continue Boyer.
+
+* Wed, 1/24/24
+	* Lots of homework, 2.3 and finish 2.4.  Revisit some problem areas.
+	* Some reading of Boyer.	
+
+* Thursday 1/25/24
+	* Class
+	* Section 2.5 review	
+	* Reading Euclid's Elements (Casey)
+
+* Friday 1/26/24
+	* Reading Euclid's Elements (Casey)
+	* Section 3.1 review 
+	* Did study guide as a practice exam.  Got 14 done, believed OK.  So maybe a 93.  Need to look at again.
+
+* Saturday 1/27/24
+	* Reading Euclid and Boyer
+	* Plan math BA see Google sheets
+
+* Sunday 
+	* Reading Euclid
+	* An easy proof (my "first") of "the bisectors of supplemental angles are 90 degrees apart." 
+
+* Monday
+	* Go over results of Study guide "exam" on Friday.  Send corrections to Emma Scothorn.
+	* Learn how to work problems involving giving the equation of the line at a point, assuming you have a function and need to find the tangent line at some x value.
 	
+* Tuesday 1/30
+	* Attend class
+	* Meet with Emma Scothorn on misc issues.
+	* Study for exam
+
+* Weds 1/31/24
+	* Work through some problems in Larson, slope of line using def of deriv.  Also work on some Intermediate Value Theorem problems.
+	* Reading Boyer, also look up some conic section material, run into something called differential geometry -- very cool.
+
+* Thursday 2/1
+	* Exam Day Calc 1.  Scored 103 of 100 points.  Sweet.
+
+* Friday 2/2
+	* Begin homework, studying next section. 
+	* Read Boyer
+
+* Saturday 2/3
+	* Reading Boyer
+	* Revisit MatPlotlib
+	* Review some conic section basic equations
+
