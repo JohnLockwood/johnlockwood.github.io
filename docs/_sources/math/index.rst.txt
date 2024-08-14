@@ -1,7 +1,7 @@
 Math Notes
 ==========
 
-.. toctree::   
+.. toctree::
    :caption: Contents:
    :hidden:
    

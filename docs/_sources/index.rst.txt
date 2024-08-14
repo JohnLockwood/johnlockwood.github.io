@@ -9,6 +9,7 @@ JohnLockwood.com
    math/index
    cognitive_science/index
    socialmedia/index
+   mideast/index
    
 
 Wow, a personal web site.  How retro.  And I'm not selling anything, even a career.
