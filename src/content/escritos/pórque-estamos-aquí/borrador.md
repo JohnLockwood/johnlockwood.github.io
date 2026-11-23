@@ -1,0 +1,9 @@
+# Pórque estamos aquí
+
+¿Otro sitio web?  ¿Me estás bromeando? 
+
+Con mi historial, creo que al mundo debo una explicación, y es muy sencilla:  estoy cansado de ser en lo que se llama el "infierno intermedio".  Dejame explicar. Cuando empiezas a aprender español, progresas con rapidez.  La ortografía es mas sencilla de inglés, y con un buen curso como Pimsleur puedes alzar a un nivel básico en pocos meses.  Y ahí puedes restar por años, una criatura medio-gringo desatado en un mundo desprevenido.
+
+Desde poco tiempo tomé la decisión de marcar un rumbo fuera de este estado intermedio.  Empecé con Baselang, charlando con profesores de español muchas veces durante la semana.  Puedo hacer frentes con tales conversaciones, pero me parece que mi facilidad de expresión ha estancado o resultó limitado a un nivel fijo.  Por lo tanto, añadí un programa serio de lectura y escuchando, utilizando El País, Youtube, y otros recursos que se puede importar en LingQ, un app que es un ejemplar excelente del método de "entrada (información) comprensible".  Eso me ha ayudado mucho, pero creo que debo plantar cara a los reclamos de marketing que prometen que uno solo tiene que creer en si y sigue escuchando para absorber todo el idioma sin esfuerzo.  Esta idea restar importancia de hábitos de producción.  Se aprende escuchar escuchando, por supuesto, pero cuantas veces has oído una persona decir, "Pues, lo puedo entender, pero no lo puedo hablar."  Producir naturalmente como resultado de leer parece genial sobre el papel, pero la realidad es que solo producir nos permite recoger los frutos de producir.  
+
+Por eso estamos aquí -- la hoja de ruta que propongo es nada menos con un sistema integral de aprender español hasta un nivel avanzado. Con confianza y todas esperanzas de éxito, disfrutando el paisaje, por supuesto, pero sin ningunos atajos.  Solo así que podemos llevarlo a cabo.

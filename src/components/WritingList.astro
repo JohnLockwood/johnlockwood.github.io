@@ -1,0 +1,10 @@
+---
+import { getEscritos } from '../lib/escritos';
+const escritos = await getEscritos();
+---
+<ul class="writing-list">
+  {escritos.map(escrito => <li>
+    <a href={`${import.meta.env.BASE_URL}escritos/${escrito.slug}/`}>{escrito.title}</a>
+    <p>{escrito.sections.map(section => section.label).join(' · ')}</p>
+  </li>)}
+</ul>

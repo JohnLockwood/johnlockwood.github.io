@@ -1,0 +1,68 @@
+---
+import { render } from 'astro:content';
+import Page from '../../layouts/Page.astro';
+import { getEscritos } from '../../lib/escritos';
+export async function getStaticPaths() {
+  return (await getEscritos()).map(escrito => ({ params: { slug: escrito.slug }, props: { escrito } }));
+}
+const { escrito } = Astro.props;
+const sections = await Promise.all(escrito.sections.map(async section => ({
+  ...section, ...await render(section.entry),
+})));
+---
+<Page title={escrito.title}>
+  <a href={`${import.meta.env.BASE_URL}escritos/`}>Todos los escritos</a>
+  <h1>{escrito.title}</h1>
+  {escrito.metadata.date && <p><time datetime={escrito.metadata.date.toISOString()}>{escrito.metadata.date.toLocaleDateString('es', { timeZone: 'UTC', dateStyle: 'long' })}</time></p>}
+  {escrito.metadata.source && <p>Fuente: {escrito.metadata.source}</p>}
+  {escrito.metadata.tags?.length && <p>Temas: {escrito.metadata.tags.join(', ')}</p>}
+  <div data-writing-tabs>
+    <nav aria-label="Secciones del escrito" class="writing-tabs">
+      {sections.map(section => <a id={`tab-${section.id}`} href={`#${section.id}`}>{section.label}</a>)}
+    </nav>
+    {sections.map(({ label, id, Content }) => <section id={id} aria-labelledby={`${id}-heading`} data-writing-panel>
+      <h2 id={`${id}-heading`}>{label}</h2>
+      <Content />
+    </section>)}
+  </div>
+</Page>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-writing-tabs]')) {
+    const list = root.querySelector<HTMLElement>('.writing-tabs')!;
+    const tabs = [...list.querySelectorAll<HTMLAnchorElement>('a')];
+    const panels = [...root.querySelectorAll<HTMLElement>('[data-writing-panel]')];
+    if (tabs.length < 2) continue;
+    const select = (index: number, focus = false) => {
+      tabs.forEach((tab, i) => {
+        tab.setAttribute('aria-selected', String(i === index));
+        tab.tabIndex = i === index ? 0 : -1;
+        panels[i].hidden = i !== index;
+      });
+      if (focus) tabs[index].focus();
+    };
+    list.setAttribute('role', 'tablist');
+    tabs.forEach((tab, i) => {
+      tab.setAttribute('role', 'tab');
+      tab.setAttribute('aria-controls', panels[i].id);
+      panels[i].setAttribute('role', 'tabpanel');
+      panels[i].setAttribute('aria-labelledby', tab.id);
+      panels[i].tabIndex = 0;
+      tab.addEventListener('click', event => {
+        event.preventDefault();
+        select(i);
+        history.replaceState(null, '', tab.hash);
+      });
+      tab.addEventListener('keydown', event => {
+        const target = event.key === 'ArrowRight' ? (i + 1) % tabs.length
+          : event.key === 'ArrowLeft' ? (i + tabs.length - 1) % tabs.length
+          : event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : -1;
+        if (event.key === ' ') { event.preventDefault(); tab.click(); }
+        if (target !== -1) { event.preventDefault(); select(target, true); }
+      });
+    });
+    const selectHash = () => select(Math.max(0, panels.findIndex(panel => `#${panel.id}` === location.hash)));
+    window.addEventListener('hashchange', selectHash);
+    selectHash();
+  }
+</script>

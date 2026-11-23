@@ -1,0 +1,37 @@
+version: '3'
+
+tasks:
+  default:
+    desc: Run the local development server
+    cmds:
+      - task: serve
+
+  serve:
+    desc: Serve locally with file watching and browser reload (Ctrl+C to stop)
+    cmds:
+      - npm run dev -- --host 127.0.0.1 --port 4321
+
+  stop:
+    desc: Stop the Astro background development server
+    cmds:
+      - npm run astro -- dev stop
+
+  status:
+    desc: Show the Astro development server status
+    cmds:
+      - npm run astro -- dev status
+
+  logs:
+    desc: Follow the Astro background development server logs
+    cmds:
+      - npm run astro -- dev logs --follow
+
+  build:
+    desc: Build the static site into dist/
+    cmds:
+      - npm run build
+
+  preview:
+    desc: Preview the production build (without live reload)
+    cmds:
+      - npm run preview -- --host 127.0.0.1

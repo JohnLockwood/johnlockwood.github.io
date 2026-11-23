@@ -1,0 +1,19 @@
+---
+import '../styles/global.css';
+interface Props { title: string }
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Un taller personal de escritura en español: borradores, versiones finales y comentarios." />
+    <title>{title} · Español pulido</title>
+  </head>
+  <body>
+    <header class="site-header"><a href={import.meta.env.BASE_URL}>Español pulido</a><span>Leer, escribir, volver a intentar.</span></header>
+    <main><slot /></main>
+    <footer>Un cuaderno de práctica en español.</footer>
+  </body>
+</html>
