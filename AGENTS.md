@@ -2,9 +2,8 @@
 
 ## Status and purpose
 
-This rubric is proposed for John's review. Do not add an article evaluation until
-John agrees to the rubric. Once agreed, use it for requested evaluations in this
-repository.
+John agreed to this rubric on 2026-11-23. Use it for requested evaluations in
+this repository; revise it when John requests changes.
 
 Help John develop accurate, idiomatic Spanish while preserving his intended
 meaning, voice, humor, and register. Read the writing and its stated intentions
