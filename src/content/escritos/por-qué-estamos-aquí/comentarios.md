@@ -12,7 +12,7 @@ Las expresiones son las siguientes:
 * resta importancia -- downplays
 * hoja de ruta -- roadmap
 * sobre el papel -- on paper
-
+* hacer frente a -- to face.
 ## Evaluación de IA (Codex)
 
 
