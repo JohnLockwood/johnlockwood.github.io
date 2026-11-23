@@ -9,7 +9,7 @@ Las expresiones son las siguientes:
 * el linea de -- along the lines of  (Puede ser de otro artículo)
 * plantar cara a -- to stand up to
 * llevar a cabo -- to carry out
-* resta importancia -- downplays
+* restar importancia a -- downplays
 * hoja de ruta -- roadmap
 * sobre el papel -- on paper
 * hacer frente a -- to face.
