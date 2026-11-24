@@ -61,7 +61,11 @@ const sections = await Promise.all(escrito.sections.map(async section => ({
         if (target !== -1) { event.preventDefault(); select(target, true); }
       });
     });
-    const selectHash = () => select(Math.max(0, panels.findIndex(panel => `#${panel.id}` === location.hash)));
+    const defaultIndex = Math.max(0, panels.findIndex(panel => panel.id === 'final'));
+    const selectHash = () => {
+      const linkedIndex = panels.findIndex(panel => `#${panel.id}` === location.hash);
+      select(linkedIndex === -1 ? defaultIndex : linkedIndex);
+    };
     window.addEventListener('hashchange', selectHash);
     selectHash();
   }

@@ -12,7 +12,12 @@ const { title } = Astro.props;
     <title>{title} · Español pulido</title>
   </head>
   <body>
-    <header class="site-header"><a href={import.meta.env.BASE_URL}>Español pulido</a><span>Leer, escribir, volver a intentar.</span></header>
+    <header class="site-header">
+      <a href={import.meta.env.BASE_URL}>Español pulido</a>
+      <nav aria-label="Navegación principal">
+        <a href={`${import.meta.env.BASE_URL}intercambio-de-idiomas/`}>Intercambio de Idiomas</a>
+      </nav>
+    </header>
     <main><slot /></main>
     <footer>Un cuaderno de práctica en español.</footer>
   </body>
