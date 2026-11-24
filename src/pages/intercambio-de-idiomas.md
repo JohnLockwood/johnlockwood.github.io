@@ -9,4 +9,8 @@ title: Intercambio de idiomas
 
 Por eso he habilitado un calendario.  Si tienes tiempo durante la semana (en horario comercial, tiempo de Nueva York) y quieres pasar una hora agradable -- media hora en español y media hora en inglés -- podemos practicar juntos.
 
+Aviso: Hay un problema con el calendario. Lo siento; buscaré una alternativa. Disculpad las molestias.
+
+<!--
 El calendario [está aquí](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3mCseg4pON4lFPUkidGYB1YjH-HOutY5wMmB2rOKBnGMWOTUNSDELs4ilqt2Sxg82buJxQnb8f).  ¡Practiquemos!
+-->
