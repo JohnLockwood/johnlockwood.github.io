@@ -2,6 +2,9 @@
 import '../styles/global.css';
 interface Props { title: string }
 const { title } = Astro.props;
+const home = import.meta.env.BASE_URL;
+const exchange = `${home}intercambio-de-idiomas/`;
+const isExchange = Astro.url.pathname.replace(/\/$/, '') === exchange.replace(/\/$/, '');
 ---
 <!doctype html>
 <html lang="es">
@@ -13,9 +16,9 @@ const { title } = Astro.props;
   </head>
   <body>
     <header class="site-header">
-      <a href={import.meta.env.BASE_URL}>Español pulido</a>
+      <a class="site-name" href={home}>Español pulido</a>
       <nav aria-label="Navegación principal">
-        <a href={`${import.meta.env.BASE_URL}intercambio-de-idiomas/`}>Intercambio de Idiomas</a>
+        <a href={exchange} aria-current={isExchange ? 'page' : undefined}>Intercambio de Idiomas</a>
       </nav>
     </header>
     <main><slot /></main>
